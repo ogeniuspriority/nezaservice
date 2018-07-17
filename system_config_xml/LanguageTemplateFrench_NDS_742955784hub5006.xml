@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<nds>
+	<generalsettings>
+		<!--Common header   -->
+		<_header>
+			<progressloader>Chargement...</progressloader>
+			<progressloader_ok>Terminer!</progressloader_ok>
+                        <progressloader_incorrect>Nom d'utilisateur ou mot cle incorrecte!</progressloader_incorrect>
+			<progressloader_failed>Erreur de connexion!</progressloader_failed>
+		</_header>
+		<!--Other header   -->
+		<_header_>
+			<mainpage_logout>Se Déconnecter</mainpage_logout>
+			<mainpage_messenger_confirm_Activate>Etes vous sure de vouloir activee le compte?</mainpage_messenger_confirm_Activate>
+			<mainpage_messenger_confirm_Suspend>Etes vous sure de vouloir suspendre le compte?</mainpage_messenger_confirm_Suspend>
+			<mainpage_messenger_confirm_Reactivate>Etes vous sure de vouloir Reactivee le compte?</mainpage_messenger_confirm_Reactivate>
+			<mainpage_messenger_account>compte</mainpage_messenger_account>
+			<mainpage_cancel_btn>Retour (Annuler)</mainpage_cancel_btn>
+			<mainpage_Confirm_btn>confirmer</mainpage_Confirm_btn>
+		</_header_>
+		<!--Common home page   -->
+		<homepage>
+			<nds_home_brief_intro>Voulez-vous avoir NDS votre SmartPhone?, Maintenant disponibles sur android</nds_home_brief_intro>
+		<nds_home_signin_btn>Connexion</nds_home_signin_btn>
+		<nds_home_signup_btn>Inscription</nds_home_signup_btn>
+		<nds_home_login_panel_title>Panneau de connexion</nds_home_login_panel_title>
+		<nds_home_login_panel_close_btn>Fermer</nds_home_login_panel_close_btn>
+		<nds_home_login_panel_username>Nom d'utilisateur</nds_home_login_panel_username>
+		<nds_home_login_panel_password>Mots de passe</nds_home_login_panel_password>
+		<nds_home_login_panel_btn_signin>Connexion</nds_home_login_panel_btn_signin>
+		<nds_home_login_panel_signin_error>Erreur de réseau!</nds_home_login_panel_signin_error>
+		<nds_home_create_account_title>Ouvrir un compte</nds_home_create_account_title>
+		<nds_home_create_account_individual>Individuel</nds_home_create_account_individual>
+		<nds_home_create_account_institution>Institution</nds_home_create_account_institution>
+		<nds_home_create_account_officials>Membre de l' institution/Fonctionnaires</nds_home_create_account_officials>
+		<nds_home_create_account_signin_with_facebook>Se connecter avec facebook</nds_home_create_account_signin_with_facebook>
+		<nds_home_create_account_signin_with_google>Se connecter avec gmail</nds_home_create_account_signin_with_google>
+		<nds_home_create_account_firstname>Surnom</nds_home_create_account_firstname>
+		<nds_home_create_account_lastname>Nom</nds_home_create_account_lastname>
+		<nds_home_create_account_birthdate>Date de naissance</nds_home_create_account_birthdate>
+		<nds_home_create_account_gender>Genre</nds_home_create_account_gender>
+		<nds_home_create_account_gender_male>Masculin</nds_home_create_account_gender_male>
+		<nds_home_create_account_gender_female>Féminin</nds_home_create_account_gender_female>
+		<nds_home_create_account_profession>Profession</nds_home_create_account_profession>
+		<nds_home_create_account_maritalstatus_>État civil</nds_home_create_account_maritalstatus_>
+		<nds_home_create_account_maritalstatus_single>Celibataire </nds_home_create_account_maritalstatus_single>
+		<nds_home_create_account_maritalstatus_married>Marié</nds_home_create_account_maritalstatus_married>
+		<nds_home_create_account_maritalstatus_divorced>Divorcer</nds_home_create_account_maritalstatus_divorced>
+		<nds_home_create_account_maritalstatus_widow>Veuve</nds_home_create_account_maritalstatus_widow>
+		<nds_home_create_account_maritalstatus_widower>Veuf</nds_home_create_account_maritalstatus_widower>
+		<nds_home_create_account_province>Province</nds_home_create_account_province>
+		<nds_home_create_account_district>Districte</nds_home_create_account_district>
+		<nds_home_create_account_sector>Secteur</nds_home_create_account_sector>
+		<nds_home_create_account_email>Adresse E-mail</nds_home_create_account_email>
+		<nds_home_create_account_password>Mots de passe</nds_home_create_account_password>
+		<nds_home_create_account_password_confirm>Confirmer le mots de passe</nds_home_create_account_password_confirm>
+		<nds_home_create_account_phone>Téléphone</nds_home_create_account_phone>
+		<nds_home_create_account_register_btn>Inscription</nds_home_create_account_register_btn>
+		<nds_home_create_account_clear_btn>Effacer</nds_home_create_account_clear_btn>
+		<nds_home_create_account_institution_title>Institution</nds_home_create_account_institution_title>
+		<nds_home_create_account_institution_website>Site Web</nds_home_create_account_institution_website>
+		<nds_home_create_account_institution_infomail>Info adresse email</nds_home_create_account_institution_infomail>
+		<nds_home_create_account_institution_province>Province</nds_home_create_account_institution_province>
+		<nds_home_create_account_institution_district>Districte</nds_home_create_account_institution_district>
+		<nds_home_create_account_institution_sector>Secteur</nds_home_create_account_institution_sector>
+		<nds_home_create_account_institution_motto>Motto</nds_home_create_account_institution_motto>
+		<nds_home_create_account_institution_username>Nom d'utilisateur</nds_home_create_account_institution_username>
+		<nds_home_create_account_institution_password>Mots de passe</nds_home_create_account_institution_password>
+		<nds_home_create_account_institution_password_confirm>Confirmer le mots de passe</nds_home_create_account_institution_password_confirm>
+		<nds_home_create_account_institution_register_btn>Inscription</nds_home_create_account_institution_register_btn>
+		<nds_home_create_account_institution_clear_btn>Effacer </nds_home_create_account_institution_clear_btn>
+		<nds_home_create_account_officials_firstname>Surnom</nds_home_create_account_officials_firstname>
+		<nds_home_create_account_officials_lastname>Nom</nds_home_create_account_officials_lastname>
+		<nds_home_create_account_officials_marital_status>État civil</nds_home_create_account_officials_marital_status>
+		<nds_home_create_account_officials_marital_status_single>Celibataire</nds_home_create_account_officials_marital_status_single>
+		<nds_home_create_account_officials_marital_status_married>Marié</nds_home_create_account_officials_marital_status_married>
+		<nds_home_create_account_officials_marital_status_divorced>Divorcer</nds_home_create_account_officials_marital_status_divorced>
+		<nds_home_create_account_officials_marital_status_widow>Veuve</nds_home_create_account_officials_marital_status_widow>
+		<nds_home_create_account_officials_marital_status_widower>Veuf</nds_home_create_account_officials_marital_status_widower>
+		<nds_home_create_account_officials_gender>Genre</nds_home_create_account_officials_gender>
+		<nds_home_create_account_officials_gender_male>Masculin</nds_home_create_account_officials_gender_male>
+		<nds_home_create_account_officials_gender_female>Féminin</nds_home_create_account_officials_gender_female>
+		<nds_home_create_account_officials_institution>Institution</nds_home_create_account_officials_institution>
+		<nds_home_create_account_officials_department>Département</nds_home_create_account_officials_department>
+		<nds_home_create_account_officials_position>Position</nds_home_create_account_officials_position>
+		<nds_home_create_account_officials_officelocation>Location du bureau:</nds_home_create_account_officials_officelocation>
+		<nds_home_create_account_officials_province>Province</nds_home_create_account_officials_province>
+		<nds_home_create_account_officials_district>Districte</nds_home_create_account_officials_district>
+		<nds_home_create_account_officials_sector>Secteur</nds_home_create_account_officials_sector>
+		<nds_home_create_account_officials_workphone>Téléphone de travail</nds_home_create_account_officials_workphone>
+		<nds_home_create_account_officials_company_mail_address>Adresse E-mail de la companie</nds_home_create_account_officials_company_mail_address>
+		<nds_home_create_account_officials_password>Mots de passe</nds_home_create_account_officials_password>
+		<nds_home_create_account_officials_confirm_password>Confirmer le mots de passe</nds_home_create_account_officials_confirm_password>
+		<nds_home_create_account_officials_register_btn>Inscription</nds_home_create_account_officials_register_btn>
+		<nds_home_create_account_officials_clear_btn>Effacer</nds_home_create_account_officials_clear_btn>
+                
+                <nds_home_available_on_android> Disponible sur Android </nds_home_available_on_android>
+                <nds_home_watch_video>Regardez notre video</nds_home_watch_video>
+	</homepage>
+	<community_user_footer>
+		<community_user_footer_leave_a_suggestion>Veuillez laissez une suggestion</community_user_footer_leave_a_suggestion>
+		<community_user_footer_leave_a_suggestion_names>Noms</community_user_footer_leave_a_suggestion_names>
+		<community_user_footer_leave_a_suggestion_email_address>Addresse E-mail </community_user_footer_leave_a_suggestion_email_address>
+		<community_user_footer_leave_a_suggestion_submit>Soumetre</community_user_footer_leave_a_suggestion_submit>
+		<community_user_footer_leave_a_suggestion_message>Message</community_user_footer_leave_a_suggestion_message>
+		<community_user_footer_leave_a_suggestion_address>Addresse</community_user_footer_leave_a_suggestion_address>
+		<community_user_footer_leave_a_suggestion_all_rights_reserved>Tous les droits sont réservés.</community_user_footer_leave_a_suggestion_all_rights_reserved>
+		
+	</community_user_footer>
+	<!--Common waiting and confirmation page   -->
+	<waitingpage>
+		<verificationtitle>Verification</verificationtitle>
+		<verification_brief_explanation>Un lien et un code pour remplir le champ ci-dessous ont été envoyés à votre adresse électronique. Vous pouvez ouvrir le lien dans votre navigateur ou entrer le code ici.</verification_brief_explanation>
+		<verification_type_code_here>Tapez le code ici</verification_type_code_here>
+		<verification_edit>Modifier</verification_edit>
+		<verification_verify_btn>Verifier</verification_verify_btn>
+		<verification_go_back_btn>Retourner</verification_go_back_btn>
+		<verification_go_resend_msg>Si vous n'avez pas recu de message, cliquez ci-dessous pour renvoyer</verification_go_resend_msg>
+		<verification_go_resend_btn>Renvoyer</verification_go_resend_btn>
+	</waitingpage>
+	<!--Common User Settings Page   -->
+	<community_user_settings>
+		<community_user_settings_language_tab>Langue</community_user_settings_language_tab>
+		<community_user_settings_admin_tab>Administrateur</community_user_settings_admin_tab>
+		<community_user_settings_notification_tab>Notification</community_user_settings_notification_tab>
+		<community_user_settings_preferences_tab>Preferences</community_user_settings_preferences_tab>
+		<community_user_settings_privacy_tab>Intimité</community_user_settings_privacy_tab>
+		<community_user_settings_ads_tab>Publicités</community_user_settings_ads_tab>
+		<community_user_settings_activated_users>Utilisateurs activés</community_user_settings_activated_users>
+		<community_user_settings_notactivated_users>Utilisateurs non-activés</community_user_settings_notactivated_users>
+		<community_user_settings_suspended_users>Utilisateur suspendu</community_user_settings_suspended_users>
+		<community_user_settings_names>Noms</community_user_settings_names>
+		<community_user_settings_position>Position</community_user_settings_position>
+		<community_user_settings_levelofpriviledge>Degré de privilege</community_user_settings_levelofpriviledge>
+		<community_user_settings_startdate>Date de début</community_user_settings_startdate>
+		<community_user_settings_emailaddress>Addresse Email </community_user_settings_emailaddress>
+		<community_user_settings_level>Niveau</community_user_settings_level>
+		<community_user_settings_suspend_user>Suspendre l'utilisateur</community_user_settings_suspend_user>
+		<community_user_settings_activate_user>Active l'utilisateur</community_user_settings_activate_user>
+		<community_user_settings_reactivate_user>Réactiver l'utilisateur</community_user_settings_reactivate_user>
+		<community_user_settings_notification>Notification</community_user_settings_notification>
+		<community_user_settings_newmsgscoming>Nouveaux messages arrivant</community_user_settings_newmsgscoming>
+		<community_user_settings_copy_mail>Copier mon adresse email</community_user_settings_copy_mail>
+		<community_user_settings_all_notification>Toute les notifications</community_user_settings_all_notification>
+		<community_user_settings_noti_on_my_nber>Envoyer les notifications sur mon portable</community_user_settings_noti_on_my_nber>
+		<community_user_preferences>Preferences</community_user_preferences>
+		<community_user_stay_loggedin>Rester connecté</community_user_stay_loggedin>
+		<community_user_receive_mail_updates>Recevoir un email de notification</community_user_receive_mail_updates>
+		<community_user_stay_tag_title>Mots clés speciale de descriptions personelle:</community_user_stay_tag_title>
+		<community_user_stay_tag_title_1>Identifiant des mots clés:</community_user_stay_tag_title_1>
+		<community_user_stay_tag_identifier_field>Nouvel Mot clés  identifiants ci dessus</community_user_stay_tag_identifier_field>
+		<community_user_stay_tag_identifier_btn_new>Créer un nouvel mot clés  identifiant</community_user_stay_tag_identifier_btn_new>
+		<community_user_stay_tag_identifier_save_changes_btn>Sauvegarder les changements</community_user_stay_tag_identifier_save_changes_btn>
+		<community_user_stay_tag_identifier_Delete_btn>Effacer </community_user_stay_tag_identifier_Delete_btn>
+		<community_user_stay_tag_keywords>Mots clés de description personelle:</community_user_stay_tag_keywords>
+		<community_user_stay_tag_newkeywordhere>Nouveau mots clé ici</community_user_stay_tag_newkeywordhere>
+		<community_user_stay_tag_createnewkeyword>Créer un nouveau mot-clé</community_user_stay_tag_createnewkeyword>
+		<community_user_stay_tag_save_changes>Sauvegarder les changements</community_user_stay_tag_save_changes>
+		<community_user_stay_tag_delete>Effacer</community_user_stay_tag_delete>
+		<community_user_privacy>Intimité</community_user_privacy>
+		<community_user_privacy_whenimasugges>Quand je fais une suggestion</community_user_privacy_whenimasugges>
+		<community_user_privacy_letallmydet>Laissez toute mes donnée disponibles</community_user_privacy_letallmydet>
+		<community_user_privacy_onlyuserLo>Seul mon nom d'utilisateur et mon emplacement soit disponible</community_user_privacy_onlyuserLo>
+		<community_user_privacy_onlyuser>Seul mon nom d'utilisateur</community_user_privacy_onlyuser>
+		<community_user_privacy_posts>Postes</community_user_privacy_posts>
+		<community_user_privacy_myusrnameappear>Mon nom d'utilisateur apparaîtra</community_user_privacy_myusrnameappear>
+		<community_user_privacy_useothernameappear>Utiliser un autre nom</community_user_privacy_useothernameappear>
+		<community_user_privacy_useothernameappear_placehold>Mon autre nom</community_user_privacy_useothernameappear_placehold>
+		<community_user_privacy_sendingQtoGvt>Envoyer des questions aux institutions governementaless</community_user_privacy_sendingQtoGvt>
+		<community_user_privacy_AllMyDseen>Tous mes details seront vu</community_user_privacy_AllMyDseen>
+		<community_user_privacy_save_new_name>Sauvegarder un nouveau nom</community_user_privacy_save_new_name>
+		
+		<community_user_privacy_OMyUsername>Seulement mon nom d'utilisateur</community_user_privacy_OMyUsername>
+		<community_user_privacy_User_loc>Nom d'utilisateur et l'addresse</community_user_privacy_User_loc>
+		<community_user_privacy_manageAds>Gérer mes publicites</community_user_privacy_manageAds>
+		<community_user_privacy_myAds>Mes PUBs</community_user_privacy_myAds>
+		<community_user_privacy_myPaidAdverts>Mes PUB payé</community_user_privacy_myPaidAdverts>
+		<community_user_privacy_startdate>Date de debut</community_user_privacy_startdate>
+		<community_user_privacy_finishdate>Date de fin</community_user_privacy_finishdate>
+		<community_user_privacy_starttime>Heure de debut</community_user_privacy_starttime>
+		<community_user_privacy_finishtime>Heure de fin</community_user_privacy_finishtime>
+		<community_user_privacy_name>Nom</community_user_privacy_name>
+		<community_user_privacy_reach>Atteint</community_user_privacy_reach>
+		<community_user_privacy_price>Prix</community_user_privacy_price>
+		<community_user_create_your_own_advert>Créer votre publicite</community_user_create_your_own_advert>
+	</community_user_settings>
+	<!--Institution or Admin Settings Page   -->
+	<institution_user_settings>
+		<institution_user_settings_admin>Administrateur</institution_user_settings_admin>
+		<institution_user_settings_language>Langue</institution_user_settings_language>
+		<institution_user_settings_notification>Notification</institution_user_settings_notification>
+		<institution_user_settings_preferences>Preferences</institution_user_settings_preferences>
+		<institution_user_settings_privacy>Intimité</institution_user_settings_privacy>
+		<institution_user_settings_ads>Publicite</institution_user_settings_ads>
+		<institution_user_settings_activated_users>Utilisateurs activés</institution_user_settings_activated_users>
+		<institution_user_settings_not_activated_users>Utilisateurs non-activé</institution_user_settings_not_activated_users>
+		<institution_user_settings_suspended_users>Utilisateur suspendu</institution_user_settings_suspended_users>
+		<institution_user_settings_names>Noms</institution_user_settings_names>
+		<institution_user_settings_position>Position</institution_user_settings_position>
+		<institution_user_settings_levelOfPriviledge>Degré de privilege</institution_user_settings_levelOfPriviledge>
+		<institution_user_settings_startdate>Date de debut</institution_user_settings_startdate>
+		<institution_user_settings_email_address>Addresse Email </institution_user_settings_email_address>
+		<institution_user_settings_level5>Niveau 5 (Toutes les privileges + les configurations du système)</institution_user_settings_level5>
+		<institution_user_settings_level4>Niveau 4(Lire, Ecrire, Supprimer, Mise à jour, Renvoyer et délégué à la communication externe)</institution_user_settings_level4>
+		<institution_user_settings_level3>Niveau 3(Lire, Ecrire, Supprimer, Mise à jour et Communication externe)</institution_user_settings_level3>
+		<institution_user_settings_level2>Niveau 2(Lire, Ecrire et Mise à jour)</institution_user_settings_level2>
+		<institution_user_settings_level1>Niveau 1(Lire et Ecrire)</institution_user_settings_level1>
+		<institution_user_settings_level0>Niveau 0(Lecture des messages seulement)</institution_user_settings_level0>
+		<institution_user_settings_suspend_user>Suspendre l'utilisateur</institution_user_settings_suspend_user>
+		<institution_user_settings_activate_user>Activer l'utilisateur</institution_user_settings_activate_user>
+		<institution_user_settings_reactivate_user>Réactiver l'utilisateur</institution_user_settings_reactivate_user>
+		<institution_user_settings_newmessagescoming>Nouveaux messages arrivant</institution_user_settings_newmessagescoming>
+		<institution_user_settings_copymailaddress>Copier mon adresse email</institution_user_settings_copymailaddress>
+		<institution_user_settings_allnotifications>Toute les notifications</institution_user_settings_allnotifications>
+		<institution_user_settings_sendNotToMynber>Envoyer les notifications sur mon portable</institution_user_settings_sendNotToMynber>
+		<institution_user_settings_stayloggedin>Rester connecté</institution_user_settings_stayloggedin>
+		<institution_user_settings_receiveemailupdates>Recevoir email des notifications</institution_user_settings_receiveemailupdates>
+		<institution_user_settings_tags_special_keywords>Mots clés speciale de descriptions personelle :</institution_user_settings_tags_special_keywords>
+		<institution_user_settings_tags_identifier> Identifiant des mots clés:</institution_user_settings_tags_identifier>
+		<institution_user_settings_tags_identifier_placeholder>Nouvel Mot clé identifiants ici</institution_user_settings_tags_identifier_placeholder>
+		<institution_user_settings_tags_new_tag_identifier_placeholder>Créer un nouvel mot clé  identifiant</institution_user_settings_tags_new_tag_identifier_placeholder>
+		<institution_user_settings_tags_save_changes>Sauvegarder les changements</institution_user_settings_tags_save_changes>
+		<institution_user_settings_tags_delete>Effacer</institution_user_settings_tags_delete>
+		<institution_user_settings_tags_keywords>Mots clés de description personelle:</institution_user_settings_tags_keywords>
+		<institution_user_settings_tags_new_keyword>Nouveau mots clé ici</institution_user_settings_tags_new_keyword>
+		<institution_user_settings_tags_new_keyword_btn>Créer un nouveau mot-clé</institution_user_settings_tags_new_keyword_btn>
+		<institution_user_settings_tags_save_changes_btn>Sauvegarder les changements</institution_user_settings_tags_save_changes_btn>
+		<institution_user_settings_tags_delete_btn>Effacer</institution_user_settings_tags_delete_btn>
+		<institution_user_settings_privacy_QToGvtInst>Envoyer des questions aux institutions governementales</institution_user_settings_privacy_QToGvtInst>
+		<institution_user_settings_privacy_AllmyDetails>Laissez toute mes donnée disponibles</institution_user_settings_privacy_AllmyDetails>
+		<institution_user_settings_privacy_UsernameLoc>Seul mon nom d'utilisateur et mon emplacement soit disponible</institution_user_settings_privacy_UsernameLoc>
+		<institution_user_settings_privacy_Username>Seulement mon nom d'utilisateur</institution_user_settings_privacy_Username>
+		<institution_user_settings_privacy_posts_title>Postes de mon institution</institution_user_settings_privacy_posts_title>
+		<institution_user_settings_privacy_showUsername>Mon nom d'utilisateur apparaîtra</institution_user_settings_privacy_showUsername>
+		<institution_user_settings_privacy_showOtherUsername>Notre postes officiel ou commenter comme l' institution</institution_user_settings_privacy_showOtherUsername>
+		<institution_user_settings_privacy_showOtherUsername_placeH>Mon autre nom</institution_user_settings_privacy_showOtherUsername_placeH>
+		<institution_user_settings_privacy_showOtherUsername_SaveNewName>Sauvegarder le nouveau nom</institution_user_settings_privacy_showOtherUsername_SaveNewName>
+		<institution_user_settings_privacy_sendingToQGovInst>Envoyer des questions aux institutions governementales</institution_user_settings_privacy_sendingToQGovInst>
+		<institution_user_settings_privacy_AllMyDetails>Tous mes details seront vu</institution_user_settings_privacy_AllMyDetails>
+		<institution_user_settings_privacy_onlyMyUsername>Seulement mon nom d'utilisateur</institution_user_settings_privacy_onlyMyUsername>
+		<institution_user_settings_privacy_onlyMyUsernameLoc>Nom d'utilisateur et l'addresse</institution_user_settings_privacy_onlyMyUsernameLoc>
+		<institution_user_settings_privacy_manageAds>Gérer mes publicites</institution_user_settings_privacy_manageAds>
+		<institution_user_settings_privacy_myAds>Mes PUBs</institution_user_settings_privacy_myAds>
+		<institution_user_settings_privacy_mypaidAdverts>Mes PUB payé</institution_user_settings_privacy_mypaidAdverts>
+		<institution_user_settings_privacy_startdate>Date de debut</institution_user_settings_privacy_startdate>
+		<institution_user_settings_privacy_finishdate>Date de fin</institution_user_settings_privacy_finishdate>
+		<institution_user_settings_privacy_starttime>Heure de debut</institution_user_settings_privacy_starttime>
+		<institution_user_settings_privacy_finishtime>Heure de fin</institution_user_settings_privacy_finishtime>
+		<institution_user_settings_privacy_name>Nom</institution_user_settings_privacy_name>
+		<institution_user_settings_privacy_reach>Atteint</institution_user_settings_privacy_reach>
+		<institution_user_settings_privacy_price>Prix</institution_user_settings_privacy_price>
+
+	</institution_user_settings>
+	<!--Official User Settings Page   -->
+	<official_user_settings>
+		<official_user_settings_admin>Administrateur</official_user_settings_admin>
+		<official_user_settings_language>Langue</official_user_settings_language>
+		<official_user_settings_notification>Notification</official_user_settings_notification>
+		<official_user_settings_preferences>Preferences</official_user_settings_preferences>
+		<official_user_settings_privacy>Intimité</official_user_settings_privacy>
+		<official_user_settings_ads>Publicite</official_user_settings_ads>
+		<official_user_settings_activated_users>Utilisateurs activés</official_user_settings_activated_users>
+		<official_user_settings_not_activated_users>Utilisateurs non-activé</official_user_settings_not_activated_users>
+		<official_user_settings_suspended_users>Utilisateur suspendu</official_user_settings_suspended_users>
+		<official_user_settings_names>Nom</official_user_settings_names>
+		<official_user_settings_position>Position</official_user_settings_position>
+		<official_user_settings_levelofpriviledge>Degré de privilege</official_user_settings_levelofpriviledge>
+		<official_user_settings_startdate>Date de debut</official_user_settings_startdate>
+		<official_user_settings_emailaddress>Addresse Email </official_user_settings_emailaddress>
+		<official_user_settings_level>Niveau</official_user_settings_level>
+		<official_user_settings_suspend_user>Suspendre l'utilisateur</official_user_settings_suspend_user>
+		<official_user_settings_activate_user>Active l'utilisateur</official_user_settings_activate_user>
+		<official_user_settings_reactivate_user>Réactiver l'utilisateur</official_user_settings_reactivate_user>
+		<official_user_settings_notification_newmessagescoming>Nouveaux messages arrivant</official_user_settings_notification_newmessagescoming>
+		<official_user_settings_notification_copymymail>Copier mon adresse email</official_user_settings_notification_copymymail>
+		<official_user_settings_notification_allnotifications>Toute les notifications</official_user_settings_notification_allnotifications>
+		<official_user_settings_notification_notifications_to_my_nber>Envoyer les notifications sur mon portable</official_user_settings_notification_notifications_to_my_nber>
+		<official_user_settings_preferences_title>Preferences</official_user_settings_preferences_title>
+		<official_user_settings_preferences_stayloggedin>Rester connecté</official_user_settings_preferences_stayloggedin>
+		<official_user_settings_preferences_receive_email_updates>Recevoir les notification par email</official_user_settings_preferences_receive_email_updates>
+		<official_user_settings_preferences_tags_special_keywords>Mots clés speciale de descriptions personelle:</official_user_settings_preferences_tags_special_keywords>
+		<official_user_settings_preferences_tags_identifier> Identifiant des mots clés:</official_user_settings_preferences_tags_identifier>
+		<official_user_settings_preferences_tags_identifier_placeholder>Nouvel Mot clés  identifiants ici</official_user_settings_preferences_tags_identifier_placeholder>
+		<official_user_settings_preferences_tags_identifier_btn>Créer un nouvel mot clé  identifiant</official_user_settings_preferences_tags_identifier_btn>
+		<official_user_settings_preferences_tags_identifier_btn_save_changes>Sauvegarder les changements</official_user_settings_preferences_tags_identifier_btn_save_changes>
+		<official_user_settings_preferences_tags_identifier_btn_delete>Effacer </official_user_settings_preferences_tags_identifier_btn_delete>
+		<official_user_settings_preferences_tags_keywords>Mots clés de description personelle:</official_user_settings_preferences_tags_keywords>
+		<official_user_settings_preferences_tags_keywords_new_keyword_here>Nouveau mots clé ici</official_user_settings_preferences_tags_keywords_new_keyword_here>
+		<official_user_settings_preferences_tags_keywords_new_keyword_here_create>Créer un nouveau mot-clé</official_user_settings_preferences_tags_keywords_new_keyword_here_create>
+		<official_user_settings_preferences_tags_keywords_savechanges>Sauvegarder les changements</official_user_settings_preferences_tags_keywords_savechanges>
+		<official_user_settings_preferences_tags_keywords_delete>Effacer</official_user_settings_preferences_tags_keywords_delete>
+		<official_user_settings_privacy_forward_a_query>=>Quand je lance une requête à une autre personne ou à une autre institution</official_user_settings_privacy_forward_a_query>
+		<official_user_settings_privacy_all_details>Tous les détails seront vus (Mon établissement, mon poste et mes contacts)</official_user_settings_privacy_all_details>
+		<official_user_settings_privacy_detailsOfInst>Seuls les détails de mon institution</official_user_settings_privacy_detailsOfInst>
+		<official_user_settings_privacy_detailsOfInst_pos>Seuls les détails de mon institution et mon poste</official_user_settings_privacy_detailsOfInst_pos>
+		<official_user_settings_privacy_posts_title>=>Postes</official_user_settings_privacy_posts_title>
+		<official_user_settings_privacy_posts_UsrnAppear> Mon nom d'utilisateur apparaîtra</official_user_settings_privacy_posts_UsrnAppear>
+		<official_user_settings_privacy_posts_UsrOthNTitle>Utiliser un autre nom</official_user_settings_privacy_posts_UsrOthNTitle>
+		<official_user_settings_privacy_posts_UsrOthNTitle_placeholder>Mon autre nom</official_user_settings_privacy_posts_UsrOthNTitle_placeholder>
+		<official_user_settings_privacy_posts_UsrOthNTitle_save_new_name>Sauvegarder le nouveau nom</official_user_settings_privacy_posts_UsrOthNTitle_save_new_name>
+		<official_user_settings_privacy_sending_queries_title>=>Envoyer des questions aux institutions governementales</official_user_settings_privacy_sending_queries_title>
+		<official_user_settings_privacy_sending_queries_show_all_my_details>Tous les détails seront vus</official_user_settings_privacy_sending_queries_show_all_my_details>
+		<official_user_settings_privacy_sending_queries_show_ony_usrNa>Seulement mon nom d'utilisateur</official_user_settings_privacy_sending_queries_show_ony_usrNa>
+		<official_user_settings_privacy_sending_queries_show_usrNa_loc>Nom d'utilisateur et l'addresse</official_user_settings_privacy_sending_queries_show_usrNa_loc>
+		<official_user_settings_privacy_manageAds>Gérer mes publicites</official_user_settings_privacy_manageAds>
+		<official_user_settings_privacy_myAds>Mes PUBs</official_user_settings_privacy_myAds>
+		<official_user_settings_privacy_myAds_createNew>Créer votre publicite</official_user_settings_privacy_myAds_createNew>
+		<official_user_settings_privacy_paid_adverts>Mes PUB payé</official_user_settings_privacy_paid_adverts>
+		<official_user_settings_advertStartDate>Date de debut</official_user_settings_advertStartDate>
+		<official_user_settings_advertFinishDate>Date de fin</official_user_settings_advertFinishDate>
+		<official_user_settings_advertStartTime>Heure de debut</official_user_settings_advertStartTime>
+		<official_user_settings_advertFinishTime>Heure de fin</official_user_settings_advertFinishTime>
+		<official_user_settings_advertName>Nom</official_user_settings_advertName>
+		<official_user_settings_advertReach>Atteint</official_user_settings_advertReach>
+		<official_user_settings_advertPrice>Prix</official_user_settings_advertPrice>	
+	</official_user_settings>
+	<!--Main Page for RGB Institution   -->
+	<main_page_institution_rgb>
+		<main_page_institution_rgb_notification_title>Notification</main_page_institution_rgb_notification_title>
+		<main_page_institution_rgb_notification_no_message>Vous n'avez pas de nouvelle notifications</main_page_institution_rgb_notification_no_message>
+		<main_page_institution_rgb_message>Message</main_page_institution_rgb_message>		
+		<main_page_institution_rgb_message_no_message>Vous allez recevoir les messages  provenant des institutions que vous avez suggerez.</main_page_institution_rgb_message_no_message>
+				<main_page_institution_rgb_message_sent_to>Envoyé à</main_page_institution_rgb_message_sent_to>
+				<main_page_institution_rgb_queries_issued_title>Les questions posées</main_page_institution_rgb_queries_issued_title>
+				<main_page_institution_rgb_suggestion_box_title>Boîte des suggestions</main_page_institution_rgb_suggestion_box_title>
+				<main_page_institution_rgb_ascending_order_of_dates>Ordre croissant des dates</main_page_institution_rgb_ascending_order_of_dates>
+				<main_page_institution_rgb_descending_order_of_dates>Ordre décroissant des dates</main_page_institution_rgb_descending_order_of_dates>
+				<main_page_institution_rgb_by_name>Par Nom</main_page_institution_rgb_by_name>
+				<main_page_institution_rgb_by_keyword>Par mot clé</main_page_institution_rgb_by_keyword>
+				<main_page_institution_rgb_by_gender>Par genre</main_page_institution_rgb_by_gender>
+				<main_page_institution_rgb_by_male>Homme</main_page_institution_rgb_by_male>
+				<main_page_institution_rgb_by_female>Femme</main_page_institution_rgb_by_female>
+				<main_page_institution_rgb_by_marital_status>Par statut marital</main_page_institution_rgb_by_marital_status>
+				<main_page_institution_rgb_by_marital_status_single>Celibataire </main_page_institution_rgb_by_marital_status_single>
+				<main_page_institution_rgb_by_marital_status_married>Marié</main_page_institution_rgb_by_marital_status_married>
+				<main_page_institution_rgb_by_marital_status_divorced>Divorcé</main_page_institution_rgb_by_marital_status_divorced>
+				<main_page_institution_rgb_by_marital_status_widow>Veuve</main_page_institution_rgb_by_marital_status_widow>
+				<main_page_institution_rgb_by_marital_status_widower>Veuf</main_page_institution_rgb_by_marital_status_widower>
+				<main_page_institution_rgb_sort_btn>Trier</main_page_institution_rgb_sort_btn>
+				<main_page_institution_rgb_sort_by_category>Par categorie:</main_page_institution_rgb_sort_by_category>
+				<main_page_institution_rgb_sort_by_category_all>Tous</main_page_institution_rgb_sort_by_category_all>
+				<main_page_institution_rgb_sort_by_category_mutuelle>MUTUELLE</main_page_institution_rgb_sort_by_category_mutuelle>
+				<main_page_institution_rgb_sort_by_category_girinka>GIRINKA</main_page_institution_rgb_sort_by_category_girinka>
+				<main_page_institution_rgb_sort_by_category_umurenge_sacco>UMURENGE SACCO</main_page_institution_rgb_sort_by_category_umurenge_sacco>
+				<main_page_institution_rgb_sort_by_category_vup>VUP</main_page_institution_rgb_sort_by_category_vup>
+				<main_page_institution_rgb_sort_by_category_vup_ibi>IBIBAZO BY'ABATURAGE</main_page_institution_rgb_sort_by_category_vup_ibi>
+				<main_page_institution_rgb_sort_by_category_sort_btn>Trier</main_page_institution_rgb_sort_by_category_sort_btn>
+				<main_page_institution_rgb_sort_by_progress>Par progression:</main_page_institution_rgb_sort_by_progress>
+				<main_page_institution_rgb_sort_by_progress_unresolved>Non-résolu</main_page_institution_rgb_sort_by_progress_unresolved>
+				<main_page_institution_rgb_sort_by_progress_resolved>Résolu</main_page_institution_rgb_sort_by_progress_resolved>
+				<main_page_institution_rgb_sort_by_progress_pending>En attente</main_page_institution_rgb_sort_by_progress_pending>
+				<main_page_institution_rgb_sort_by_progress_unsatisfied>Insatisfait</main_page_institution_rgb_sort_by_progress_unsatisfied>
+				<main_page_institution_rgb_sort_by_progress_in_progress>En cours</main_page_institution_rgb_sort_by_progress_in_progress>
+				<main_page_institution_rgb_sort_by_progress_unread>Non-lu(s)</main_page_institution_rgb_sort_by_progress_unread>
+				<main_page_institution_rgb_sort_by_progress_replied_to>Ce qui ont été répondu à</main_page_institution_rgb_sort_by_progress_replied_to>
+				<main_page_institution_rgb_sort_by_progress_sort_btn>Trier</main_page_institution_rgb_sort_by_progress_sort_btn>
+				<main_page_institution_rgb_sort_sorting_by_date_range> Tri par intervalle de dates</main_page_institution_rgb_sort_sorting_by_date_range>
+				<main_page_institution_rgb_sort_sorting_by_date_range_from>de</main_page_institution_rgb_sort_sorting_by_date_range_from>
+				<main_page_institution_rgb_sort_sorting_by_date_range_to>à</main_page_institution_rgb_sort_sorting_by_date_range_to>
+				<main_page_institution_rgb_sort_sorting_by_date_range_first_date>Première date</main_page_institution_rgb_sort_sorting_by_date_range_first_date>
+				<main_page_institution_rgb_sort_sorting_by_date_range_last_date>Dernier date</main_page_institution_rgb_sort_sorting_by_date_range_last_date>
+				<main_page_institution_rgb_sort_sorting_by_date_range_sort_in_ascending_order>Trier par ordre croissant</main_page_institution_rgb_sort_sorting_by_date_range_sort_in_ascending_order>
+				<main_page_institution_rgb_sort_sorting_by_date_range_sort_in_descending_order>Trier par ordre décroissant</main_page_institution_rgb_sort_sorting_by_date_range_sort_in_descending_order>
+				<main_page_institution_rgb_category>Catégorie:</main_page_institution_rgb_category>
+				<main_page_institution_rgb_reply>Repondre</main_page_institution_rgb_reply>
+				<main_page_institution_rgb_forward_as>Transferer comme:</main_page_institution_rgb_forward_as>
+				<main_page_institution_rgb_delegation>Délégation</main_page_institution_rgb_delegation>
+				<main_page_institution_rgb_consultation>Consultation</main_page_institution_rgb_consultation>
+				<main_page_institution_rgb_community_ascending_order_of_dates>Ordre ascendant des dates</main_page_institution_rgb_community_ascending_order_of_dates>
+				<main_page_institution_rgb_community_descending_order_of_dates>Ordre décroissant des dates</main_page_institution_rgb_community_descending_order_of_dates>
+				<main_page_institution_rgb_community_byname>Par Nom</main_page_institution_rgb_community_byname>
+				<main_page_institution_rgb_community_bykeyword>Par mot clé</main_page_institution_rgb_community_bykeyword>
+				<main_page_institution_rgb_community_bygender>Par Genre</main_page_institution_rgb_community_bygender>
+				<main_page_institution_rgb_community_bymale>Homme</main_page_institution_rgb_community_bymale>
+				<main_page_institution_rgb_community_byfemale>Femme</main_page_institution_rgb_community_byfemale>
+				<main_page_institution_rgb_community_by_marital_status>Par statut marital</main_page_institution_rgb_community_by_marital_status>
+				<main_page_institution_rgb_community_by_marital_status_single>Celibataire</main_page_institution_rgb_community_by_marital_status_single>
+				<main_page_institution_rgb_community_by_marital_status_married>Marié</main_page_institution_rgb_community_by_marital_status_married>
+				<main_page_institution_rgb_community_by_marital_status_divorced>Divorcé</main_page_institution_rgb_community_by_marital_status_divorced>
+				<main_page_institution_rgb_community_by_marital_status_widow>Veuve</main_page_institution_rgb_community_by_marital_status_widow>
+				<main_page_institution_rgb_community_by_marital_status_widower>Veuf</main_page_institution_rgb_community_by_marital_status_widower>
+				<main_page_institution_rgb_community_by_marital_status_sort_btn>Trier</main_page_institution_rgb_community_by_marital_status_sort_btn>
+				<main_page_institution_rgb_community_by_media_type>Par type de média:</main_page_institution_rgb_community_by_media_type>
+				<main_page_institution_rgb_community_by_media_type_all>Tous</main_page_institution_rgb_community_by_media_type_all>
+				<main_page_institution_rgb_community_by_media_type_text>Texte</main_page_institution_rgb_community_by_media_type_text>
+				<main_page_institution_rgb_community_by_media_type_audio>Audio</main_page_institution_rgb_community_by_media_type_audio>
+				<main_page_institution_rgb_community_by_media_type_video>Video</main_page_institution_rgb_community_by_media_type_video>
+				<main_page_institution_rgb_community_by_media_type_img>Image</main_page_institution_rgb_community_by_media_type_img>
+				<main_page_institution_rgb_community_by_media_type_sort_btn>Trier</main_page_institution_rgb_community_by_media_type_sort_btn>
+				<main_page_institution_rgb_community_sort_by_date_range>Tri par intervalle de dates</main_page_institution_rgb_community_sort_by_date_range>
+				<main_page_institution_rgb_community_sort_by_date_range_from>de</main_page_institution_rgb_community_sort_by_date_range_from>
+				<main_page_institution_rgb_community_sort_by_date_range_to>à</main_page_institution_rgb_community_sort_by_date_range_to>
+				<main_page_institution_rgb_community_sort_by_date_range_first_date>Première date</main_page_institution_rgb_community_sort_by_date_range_first_date>
+				<main_page_institution_rgb_community_sort_by_date_range_last_date>Dernier date</main_page_institution_rgb_community_sort_by_date_range_last_date>
+				<main_page_institution_rgb_community_sort_by_date_range_sort_in_ascending_order>Trier par ordre croissant</main_page_institution_rgb_community_sort_by_date_range_sort_in_ascending_order>
+				<main_page_institution_rgb_community_sort_by_date_range_sort_in_descending_order>Trier par ordre décroissant</main_page_institution_rgb_community_sort_by_date_range_sort_in_descending_order>
+				<main_page_institution_rgb_community_image>Image</main_page_institution_rgb_community_image>
+				<main_page_institution_rgb_community_text>Text</main_page_institution_rgb_community_text>
+				<main_page_institution_rgb_community_video>Video</main_page_institution_rgb_community_video>
+				<main_page_institution_rgb_community_audio>Audio</main_page_institution_rgb_community_audio>
+				<main_page_institution_rgb_community_forum>Forum</main_page_institution_rgb_community_forum>
+				<main_page_institution_rgb_community_forum_all>Tous</main_page_institution_rgb_community_forum_all>
+				<main_page_institution_rgb_community_forum_latest>Récent</main_page_institution_rgb_community_forum_latest>
+				<main_page_institution_rgb_community_forum_where_i_am_tagged>Où j'ai etais mentioné</main_page_institution_rgb_community_forum_where_i_am_tagged>
+				<main_page_institution_rgb_community_forum_trending>Actualité</main_page_institution_rgb_community_forum_trending>
+				<main_page_institution_rgb_community_forum_ourposts>Nos postés</main_page_institution_rgb_community_forum_ourposts>
+				<main_page_institution_rgb_community_forum_search_here>Rechercher ici </main_page_institution_rgb_community_forum_search_here>
+				<main_page_institution_rgb_community_forum_share_your_opinion>Partagez votre opinion avec la communauté</main_page_institution_rgb_community_forum_share_your_opinion>
+				<main_page_institution_rgb_community_forum_position>Position</main_page_institution_rgb_community_forum_position>
+				<main_page_institution_rgb_community_forum_views> Vues</main_page_institution_rgb_community_forum_views>
+				<main_page_institution_rgb_community_forum_likes>Aimes ça</main_page_institution_rgb_community_forum_likes>
+				<main_page_institution_rgb_community_forum_unlikes>N'aime pas ça</main_page_institution_rgb_community_forum_unlikes>
+				<main_page_institution_rgb_community_forum_comment>Commentaires</main_page_institution_rgb_community_forum_comment>
+				
+				
+	</main_page_institution_rgb>
+	<!-- Main Page For Any Institution  -->
+	<main_page_institution>
+		<main_page_institution_notification_title>Notification</main_page_institution_notification_title>
+		<main_page_institution_notification_no_notification>Vous n'avez pas de nouvelle notifications</main_page_institution_notification_no_notification>
+		<main_page_institution_notification_message_title>Message</main_page_institution_notification_message_title>
+		<main_page_institution_notification_message_no_message>Vous allez recevoir les messages  provenant des institutions que vous avez suggerez. </main_page_institution_notification_message_no_message>				
+				<main_page_institution_notification_sent_to>Envoyé à</main_page_institution_notification_sent_to>
+				<main_page_institution_suggestion_box_panel>Boîte des suggestions</main_page_institution_suggestion_box_panel>
+				<main_page_institution_suggestion_box_panel_sort_ascending_of_dates>Ordre ascendant des dates</main_page_institution_suggestion_box_panel_sort_ascending_of_dates>
+				<main_page_institution_suggestion_box_panel_sort_descending_of_dates>Ordre décroissant des dates</main_page_institution_suggestion_box_panel_sort_descending_of_dates>
+				<main_page_institution_suggestion_box_panel_sort_byname>Par Nom</main_page_institution_suggestion_box_panel_sort_byname>
+				<main_page_institution_suggestion_box_panel_sort_bykeyword>Par mot clé</main_page_institution_suggestion_box_panel_sort_bykeyword>
+				<main_page_institution_suggestion_box_panel_sort_bygender>Par Genre</main_page_institution_suggestion_box_panel_sort_bygender>
+				<main_page_institution_suggestion_box_panel_sort_bymale>HOMME</main_page_institution_suggestion_box_panel_sort_bymale>
+				<main_page_institution_suggestion_box_panel_sort_byfemale>Femme</main_page_institution_suggestion_box_panel_sort_byfemale>
+				<main_page_institution_suggestion_box_panel_sort_marital_status>Par statut marital</main_page_institution_suggestion_box_panel_sort_marital_status>	
+				<main_page_institution_suggestion_box_panel_sort_marital_status_single>Celibataire</main_page_institution_suggestion_box_panel_sort_marital_status_single>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_married>Marié</main_page_institution_suggestion_box_panel_sort_marital_status_married>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_divorced>Divorcé</main_page_institution_suggestion_box_panel_sort_marital_status_divorced>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_widow>Veuve</main_page_institution_suggestion_box_panel_sort_marital_status_widow>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_widower>Veuf</main_page_institution_suggestion_box_panel_sort_marital_status_widower>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_sort_btn>Trier</main_page_institution_suggestion_box_panel_sort_marital_status_sort_btn>	
+				<main_page_institution_suggestion_box_panel_sort_media_type>Par type de média:</main_page_institution_suggestion_box_panel_sort_media_type>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_all>Tous</main_page_institution_suggestion_box_panel_sort_media_type_all>
+				<main_page_institution_suggestion_box_panel_sort_media_type_text>Texte</main_page_institution_suggestion_box_panel_sort_media_type_text>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_audio>Audio</main_page_institution_suggestion_box_panel_sort_media_type_audio>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_video>Video</main_page_institution_suggestion_box_panel_sort_media_type_video>
+				<main_page_institution_suggestion_box_panel_sort_media_type_sort_btn>Trier</main_page_institution_suggestion_box_panel_sort_media_type_sort_btn>
+				<main_page_institution_suggestion_box_panel_sort_date_range>Tri par intervalle de dates</main_page_institution_suggestion_box_panel_sort_date_range>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_from>de</main_page_institution_suggestion_box_panel_sort_date_range_from>
+				<main_page_institution_suggestion_box_panel_sort_date_range_to>à</main_page_institution_suggestion_box_panel_sort_date_range_to>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_first_date>Première date</main_page_institution_suggestion_box_panel_sort_date_range_first_date>
+				<main_page_institution_suggestion_box_panel_sort_date_range_last_date>Dernier date</main_page_institution_suggestion_box_panel_sort_date_range_last_date>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_sort_ascending>Trier par ordre croissant</main_page_institution_suggestion_box_panel_sort_date_range_sort_ascending>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_sort_descending>Trier par ordre décroissant</main_page_institution_suggestion_box_panel_sort_date_range_sort_descending>
+				<main_page_institution_suggestion_box_panel_image>image</main_page_institution_suggestion_box_panel_image>	
+				<main_page_institution_suggestion_box_panel_text>texte</main_page_institution_suggestion_box_panel_text>	
+				<main_page_institution_suggestion_box_panel_video>video</main_page_institution_suggestion_box_panel_video>
+				<main_page_institution_suggestion_box_panel_audio>audio</main_page_institution_suggestion_box_panel_audio>				
+				<main_page_institution_suggestion_box_forum>Forum</main_page_institution_suggestion_box_forum>	
+				<main_page_institution_suggestion_box_forum_all>Tous</main_page_institution_suggestion_box_forum_all>	
+				<main_page_institution_suggestion_box_forum_latest>Récent</main_page_institution_suggestion_box_forum_latest>	
+				<main_page_institution_suggestion_box_forum_whereiam_tagged>Où j'ai etais mentioné</main_page_institution_suggestion_box_forum_whereiam_tagged>	
+				<main_page_institution_suggestion_box_forum_trending>Actualité</main_page_institution_suggestion_box_forum_trending>	
+				<main_page_institution_suggestion_box_forum_ourposts>Nos postés</main_page_institution_suggestion_box_forum_ourposts>
+				<main_page_institution_suggestion_box_forum_searchhere>Rechercher ici</main_page_institution_suggestion_box_forum_searchhere>
+				<main_page_institution_suggestion_box_forum_share_with_community>Partagez votre opinion avec la communauté</main_page_institution_suggestion_box_forum_share_with_community>
+					<main_page_institution_suggestion_box_forum_position>Position</main_page_institution_suggestion_box_forum_position>
+					<main_page_institution_suggestion_box_forum_views>Vues</main_page_institution_suggestion_box_forum_views>
+					<main_page_institution_suggestion_box_forum_likes>Aimes ça</main_page_institution_suggestion_box_forum_likes>	
+					<main_page_institution_suggestion_box_forum_unlikes>N'aime pas ça</main_page_institution_suggestion_box_forum_unlikes>
+					<main_page_institution_suggestion_box_forum_comments>Commentaires</main_page_institution_suggestion_box_forum_comments>	
+					<main_page_institution_suggestion_box_forum_footer>Termes et conditions</main_page_institution_suggestion_box_forum_footer>
+					<main_page_institution_suggestion_box_forum_your_comment>Votre commentaire</main_page_institution_suggestion_box_forum_your_comment>		
+		
+	</main_page_institution>
+	<!--Main Page For Common User   -->
+	<main_page>
+		<main_page_notification_title>Notification</main_page_notification_title>
+		<main_page_notification_no_notification>Vous n'avez pas de nouvelle notifications</main_page_notification_no_notification>
+		<main_page_notification_notification_likes>Aimes</main_page_notification_notification_likes>
+		<main_page_notification_notification_dislikes>N'aime pas</main_page_notification_notification_dislikes>
+		<main_page_notification_notification_comment>Commentaires</main_page_notification_notification_comment>
+		<main_page_notification_message_title>Message</main_page_notification_message_title>
+		<main_page_notification_message_no_message>Vous allez recevoir les messages  provenant des institutions que vous avez suggerez.</main_page_notification_message_no_message>
+				<main_page_notification_message_sent_to>Envoyé à</main_page_notification_message_sent_to>
+				<main_page_notification_message_sent_replies>Réponses</main_page_notification_message_sent_replies>
+				<main_page_notification_message_sent_follow_up>Suivre </main_page_notification_message_sent_follow_up>
+				<main_page_notification_message_sent_finalize>Finaliser</main_page_notification_message_sent_finalize>
+				<main_page_notification_message_inform_check>Souhaitez-vous nous informer comment votre probleme a été finalisée? sélectionnez l'un des options suivantes:</main_page_notification_message_inform_check>
+				<main_page_notification_message_inform_check_resolved>Résolu</main_page_notification_message_inform_check_resolved>
+				<main_page_notification_message_inform_check_resolved_1>Le problème n'est pas résolu mais je suis satisfait avec des explications.</main_page_notification_message_inform_check_resolved_1>
+				<main_page_notification_message_inform_check_resolved_2>Le problème n'est pas résolu et je ne suis pas satisfait avec des explications.</main_page_notification_message_inform_check_resolved_2>
+				<main_page_notification_message_inform_check_resolved_other>Autres</main_page_notification_message_inform_check_resolved_other>
+				<main_page_notification_message_inform_check_resolved_typehere>Écrivez ici</main_page_notification_message_inform_check_resolved_typehere>
+				<main_page_notification_message_inform_check_resolved_ok>Ok</main_page_notification_message_inform_check_resolved_ok>
+				<main_page_notification_message_inform_check_resolved_cancel>Annuler</main_page_notification_message_inform_check_resolved_cancel>
+				<main_page_notification_message_inform_check_question_viewed>Votre question a été consultée par le personnel de RGB chargé des suggestions de peuples</main_page_notification_message_inform_check_question_viewed>
+				<main_page_notification_message_inform_check_question_viewed_1>Votre question a été transmise au bureau de l'Ombudsman pour examen</main_page_notification_message_inform_check_question_viewed_1>
+				<main_page_notification_message_inform_check_question_sent_by> Envoyé par</main_page_notification_message_inform_check_question_sent_by>
+				<main_page_forum_all>Tous</main_page_forum_all>
+				<main_page_forum_latest>Récent</main_page_forum_latest>
+				<main_page_forum_whereiamtagged>Où j'ai etais mentioné</main_page_forum_whereiamtagged>
+				<main_page_forum_trending>Actualité</main_page_forum_trending>
+				<main_page_forum_myposts>Mes postés</main_page_forum_myposts>
+				<main_page_forum_search>Rechercher ici</main_page_forum_search>
+				<main_page_forum_your_su_community>Partagez votre opinion avec la communauté</main_page_forum_your_su_community>
+				<main_page_forum_your_su_commun_send>Envoyer</main_page_forum_your_su_commun_send>
+				<main_page_forum_your_su_commun_position>Position</main_page_forum_your_su_commun_position>
+				<main_page_forum_views>Vues</main_page_forum_views>
+				<main_page_forum_likes>Aimes</main_page_forum_likes>
+				<main_page_forum_unlikes>N'aime pas</main_page_forum_unlikes>
+				<main_page_forum_comments>Commentaires</main_page_forum_comments>
+				<main_page_forum_comments_your_comment>Commentaire</main_page_forum_comments_your_comment>
+				<main_page_forum_suggestion_panel>Ceci est une plateforme mis en place par le gouvernement pour envoyer vos remarque sur:</main_page_forum_suggestion_panel>
+				<main_page_forum_suggestion_panel_thank_you>Merci d'utiliser cette plateforme, votre suggestion est précieuse pour nous:</main_page_forum_suggestion_panel_thank_you>
+				<main_page_forum_suggestion_panel_your_question_here>Votre question ici</main_page_forum_suggestion_panel_your_question_here>
+				<main_page_forum_suggestion_panel_your_question_here_send>Envoyer</main_page_forum_suggestion_panel_your_question_here_send>
+				<main_page_forum_suggestion_panel_your_question_here_cancel>Annuler</main_page_forum_suggestion_panel_your_question_here_cancel>
+				<main_page_forum_suggestion_panel_title__>Boîte des suggestions</main_page_forum_suggestion_panel_title__>
+				<main_page_forum_suggestion_panel_send_brief_explain>Envoyer les suggestions aux companies de facons suivante:</main_page_forum_suggestion_panel_send_brief_explain>
+				<main_page_forum_suggestion_panel_send_brief_send_a_text>Envoyer une suggestion en texte</main_page_forum_suggestion_panel_send_brief_send_a_text>
+				<main_page_forum_suggestion_panel_send_brief_send_a_picture>Envoyer une photo de suggestion</main_page_forum_suggestion_panel_send_brief_send_a_picture>
+				<main_page_forum_suggestion_panel_send_brief_send_an_audio>Envoyer un audio de suggestion</main_page_forum_suggestion_panel_send_brief_send_an_audio>
+				<main_page_forum_suggestion_panel_send_brief_send_a_video>Envoyer une video de suggestion</main_page_forum_suggestion_panel_send_brief_send_a_video>
+				
+				<main_page_forum_suggestion_panel_send_brief_thanks>Merci d'utiliser cette plateforme, votre suggestion est précieuse pour nous:</main_page_forum_suggestion_panel_send_brief_thanks>
+				<main_page_forum_suggestion_panel_send_search_company>Recherchez une compagnie ou entrez une nouvelle compagnie ici</main_page_forum_suggestion_panel_send_search_company>
+				<main_page_forum_suggestion_panel_send_View_all>Voir tout</main_page_forum_suggestion_panel_send_View_all>
+				<main_page_forum_suggestion_panel_send_your_question>Votre question</main_page_forum_suggestion_panel_send_your_question>
+				<main_page_forum_suggestion_panel_send_txt>Envoyer</main_page_forum_suggestion_panel_send_txt>
+				<main_page_forum_suggestion_panel_cancel_txt>Annuler</main_page_forum_suggestion_panel_cancel_txt>
+				<main_page_forum_suggestion_panel_choose_image_from_device>Choisissez l'image à partir du périphérique</main_page_forum_suggestion_panel_choose_image_from_device>
+				<main_page_forum_suggestion_panel_your_caption>Votre légende</main_page_forum_suggestion_panel_your_caption>
+				<main_page_forum_suggestion_panel_choose_audio_from_device>Choisissez l'audio du périphérique</main_page_forum_suggestion_panel_choose_audio_from_device>
+				<main_page_forum_suggestion_panel_choose_video_from_device>Choisissez la vidéo à partir du périphérique</main_page_forum_suggestion_panel_choose_video_from_device>
+		
+	</main_page>
+	<!--Profile Page For Institution   -->
+	<profile_page_institution>
+		<profile_page_institution_your_account>Votre compte</profile_page_institution_your_account>
+		<profile_page_institution_institution>Institution</profile_page_institution_institution>
+		<profile_page_institution_website>Site Web</profile_page_institution_website>
+		<profile_page_institution_info_email>Info adresse email</profile_page_institution_info_email>
+		<profile_page_institution_institution_1>Institution</profile_page_institution_institution_1>
+		<profile_page_institution_website_1>Site Web</profile_page_institution_website_1>
+		<profile_page_institution_mail_add_1>Addresse Email </profile_page_institution_mail_add_1>
+		<profile_page_institution_province>Province</profile_page_institution_province>
+		<profile_page_institution_district>Districte</profile_page_institution_district>
+		<profile_page_institution_sector>Secteurr</profile_page_institution_sector>
+		<profile_page_institution_motto>Motto</profile_page_institution_motto>
+		<profile_page_institution_username>Nom d'utilisateur</profile_page_institution_username>
+		<profile_page_institution_change_password>Changer le mot de passe</profile_page_institution_change_password>
+		<profile_page_institution_save_changes>Sauvegarder les changements</profile_page_institution_save_changes>
+		<profile_page_institution_continue>Continuer</profile_page_institution_continue>			
+		
+	</profile_page_institution>
+	<!--Profile Page For Official   -->
+	<profile_page_officials>
+		<profile_page_officials_your_account>Votre compte</profile_page_officials_your_account>
+		<profile_page_officials_firstname>Surnom</profile_page_officials_firstname>
+		<profile_page_officials_lastname>Nom</profile_page_officials_lastname>
+		<profile_page_officials_first_name_here>Votre Surnom ici</profile_page_officials_first_name_here>
+		<profile_page_officials_last_name_here>Votre Nom ici</profile_page_officials_last_name_here>
+		<profile_page_officials_gender_title>Genre</profile_page_officials_gender_title>
+		<profile_page_officials_gender_male>Masculin</profile_page_officials_gender_male>
+		<profile_page_officials_gender_female>Féminin</profile_page_officials_gender_female>
+		<profile_page_officials_marital_status>Status marital</profile_page_officials_marital_status>
+		<profile_page_officials_marital_status_single>Celibataire</profile_page_officials_marital_status_single>
+		<profile_page_officials_marital_status_married>Marié</profile_page_officials_marital_status_married>
+		<profile_page_officials_marital_status_divorced>Divorcé</profile_page_officials_marital_status_divorced>
+		<profile_page_officials_marital_status_widow>Veuve</profile_page_officials_marital_status_widow>
+		<profile_page_officials_marital_status_widower>Veuf</profile_page_officials_marital_status_widower>
+		<profile_page_officials_institution>Institution</profile_page_officials_institution>
+		<profile_page_officials_department>Departement</profile_page_officials_department>
+		<profile_page_officials_position>Poste</profile_page_officials_position>
+		<profile_page_officials_province>Province</profile_page_officials_province>
+		<profile_page_officials_district>Districte</profile_page_officials_district>
+		<profile_page_officials_sector>Secteur</profile_page_officials_sector>
+		<profile_page_officials_work_phone>Téléphone de travail</profile_page_officials_work_phone>
+		<profile_page_officials_company_address_mail>Adresse email de la companie</profile_page_officials_company_address_mail>
+		<profile_page_officials_change_password>Changer le mot de passe</profile_page_officials_change_password>
+		<profile_page_officials_save_changes>Sauvegarder les changements</profile_page_officials_save_changes>
+		<profile_page_officials_save_changes_continue>Continuer</profile_page_officials_save_changes_continue>		
+		
+	</profile_page_officials>
+	<!--Profile Page  for Common User  -->
+	<profile_page>
+		<profile_page_your_account>Votre compte</profile_page_your_account>
+		<profile_page_first_name>Surnom</profile_page_first_name>
+		<profile_page_last_name>Nom</profile_page_last_name>
+		<profile_page_first_name_here>Votre Surnom ici</profile_page_first_name_here>
+		<profile_page_last_name_here>Votre Nom ici</profile_page_last_name_here>
+		<profile_page_gender>Genre</profile_page_gender>
+		<profile_page_male>Masculin</profile_page_male>
+		<profile_page_female>Féminin</profile_page_female>
+		<profile_page_email_add>Addresse Email </profile_page_email_add>
+		<profile_page_username>Nom d'utilisateur</profile_page_username>
+		<profile_page_email_add_here>Votre addresse Email ici</profile_page_email_add_here>
+		<profile_page_username_add_here>Votre Nom d'utilisateur ici</profile_page_username_add_here>
+		<profile_page_change_password>Changer le mot de passe</profile_page_change_password>
+		<profile_page_birthdate>Date de naissance</profile_page_birthdate>
+		<profile_page_marital_status>Status marital</profile_page_marital_status>
+		<profile_page_marital_status_single>Celibataire</profile_page_marital_status_single>
+			<profile_page_marital_status_married>Marié</profile_page_marital_status_married>
+			<profile_page_marital_status_divorced>Divorcé</profile_page_marital_status_divorced>
+			<profile_page_marital_status_widow>Veuve</profile_page_marital_status_widow>
+			<profile_page_marital_status_widower>Veuf</profile_page_marital_status_widower>
+			<profile_page_profession>Profession</profile_page_profession>
+			<profile_page_tel_no>Numero de Téléphone</profile_page_tel_no>			
+			<profile_page_address>Addresse</profile_page_address>
+			<profile_page_save_changes>Sauvegarder les changements</profile_page_save_changes>
+			<profile_page_continue>Continuer</profile_page_continue>
+		
+	</profile_page>
+</generalsettings>
+</nds>
+

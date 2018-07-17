@@ -1,0 +1,741 @@
+.centerrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.startcolstartinverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+.startrowwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap
+}
+.centercolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.startcolcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+.startcolstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+.startrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+.startrowspace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+.startrowstart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+.centercolumnspace{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.centerrowspace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+.centerrowspacearound{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+hr{
+    margin: 10px 0px!important;
+    border-bottom: 1px #ccc solid;
+}
+#main_page_institution_rgb_forward_as_popup{
+    min-width: 200px;
+    z-index:10000;
+    background:rgba(20,20,20,.6);
+    visibility:hidden;
+    position: absolute;
+    box-shadow:2px 2px 2px #333333;
+}
+#main_page_institution_rgb_forward_as_popup ul{
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+#main_page_institution_rgb_forward_as_popup li{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 4px; 
+    -webkit-transition: anything .5s ease-in-out;
+    transition: anything .5s ease-in-out;
+}
+#main_page_institution_rgb_forward_as_popup li:hover{
+
+    background-color: whitesmoke;
+    color: gray;
+}
+/* -------------------------- badge ---------------------------------*/
+/*.badge{
+    background-color: #f9fbe7
+}
+.badge.active{
+    background-color: #c6ff00
+}*/
+/*-------------------------- home page *****************************************/
+.container1{
+
+    height: 100%;
+    width: 100%
+}
+.jumbotron{
+    padding-left: 40px;
+    padding-right: 20px
+}
+.container2{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #fafafa
+}
+.home_upper_bg{
+    background-color: rgba(0,0,0,.8);
+    background-image: url(../images/32210901391_becdb7c654_c-ca7f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 50% 10%;
+
+    color: whitesmoke
+}
+.home_upper_bg>div{
+    background-color: rgba(0,0,0,.2);
+    border: 1px dashed #ccc;
+}
+#home-video{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,.5)
+}
+.getstarted{
+    background-color: #26a69a;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.myfooter{
+    padding: 10px auto;
+    background-color: #212121;
+    color: #fafafa
+}
+
+/* -------------------------- main nav ---------------------------------*/
+#main-nav{
+    margin-bottom: 0px!important;
+    background-color: #009688;
+    width: 100%;
+    color: white
+}
+#homenav{
+    background-color: #009688; 
+    margin-bottom: 0px!important
+}
+
+
+/* -------------------------- main panel ---------------------------------*/
+.main-content{
+    position: relative;
+    top: 56px;
+    background-color: #f9fbe7;
+    width: 100%;
+    height: calc(100%-56px);
+    }
+    
+body{
+    overflow-x: hidden
+}
+/* -------------------------- main panel ---------------------------------*/
+#panel1{
+    padding-left: 0px!important;
+    border-right: 1.5px solid #ccc;
+    border-right: 1.5px solid rgba(0, 0, 0, .15);
+    padding-right: 0px!important;
+    height: 100%
+}
+#panel3{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    border-left: 1.5px solid #ccc;
+    border-left: 1.5px solid rgba(0, 0, 0, .15);
+    height: 100%
+}
+/*------------------------header forum --------------------------------------*/
+.header_0_forum{
+    cursor: pointer;
+    text-decoration: none
+}
+/* -------------------------- message panel ---------------------------------*/
+.messagepanel{
+    min-height: 200px;
+
+
+}
+.messagepanel .panel-heading{
+    background-color: #26a69a
+}
+.message-item{
+    height: 72px;
+    border-bottom: 1px solid #eee;
+    padding: 0px 10px;
+    background-color: #f9fbe7;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.message-item:hover {
+    cursor: pointer;
+    background-color: #ffffff
+}
+.message-item:active {
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0,0,0,.5);
+}
+.message_collapse{
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+/* -------------------------- notifiaction panel ---------------------------------*/
+.notifpanel{
+    min-height: 200px;
+
+
+
+}
+.notifpanel .panel-heading{
+    background-color: #26a69a
+}
+/* -------------------------- suggest panel ---------------------------------*/
+.suggestpanel{
+    min-height: 200px;
+
+}
+.suggestpanel .panel-heading{
+    background-color: #26a69a
+}
+.suggestpanel .panel-body{
+    padding: 10px 15px!important
+}
+.suggestpanel img{
+    margin: 5px 10px
+}
+
+/* -------------------------- gov panel ---------------------------------*/
+.govpanel{
+    min-height: 200px;
+
+}
+.govpanel .panel-heading{
+    background-color: #26a69a
+}
+.govpanel button{
+    width: 100%;
+    margin: 5px 0px;
+    border-bottom: 1px solid #eee;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+.govpanel button:hover,
+.govpanel button:visited,
+.govpanel button:active{
+    text-decoration: none;
+    background-color: #fff
+
+}
+/*-----------------------------------------------------------------------------*/
+#main_page_carousel_new_posts{
+    cursor: pointer
+}
+/*--------------------------- main panel -------------------------------------*/
+.classvisible{
+    visibility: visible!important;
+}
+/*.sortpanel{
+    visibility: hidden;
+    display: block;
+    height: auto;
+    position: absolute;
+    z-index: 100000;
+    top: 0px;
+    background-color: #fafafa;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}*/
+#panel-search{
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    width: 0%;
+    background-color: #ffffff;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.post-area{
+    background-color: #ffffff;
+    padding: 0px!important;
+    height: 48px;
+    width: 100%;
+    border-top: 1px #ccc solid;
+    -webkit-box-shadow: 0 -1px 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 -1px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.post-area textarea{
+    overflow-y: auto;
+    height: 40px;
+    min-width: calc(100% - 64px);
+    max-width: calc(100% - 64px);
+
+    font-size: 14px;
+    line-height: 1.5;
+    border: none;
+    resize: none;
+    z-index: 99;
+    text-align: left
+}
+.post-area button{
+    height: 36px;
+    width: 64px;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+.my-post-area{
+    background-color: #ffffff;
+    padding: 0px!important;
+    height: 48px
+}
+
+#addmedia,
+#addemoji
+{
+    padding: 8px 4px;
+    background-color: #ffffff
+}
+#addmedia:hover,
+#addemoji:hover,
+#sendmessage:hover{
+    cursor: pointer;
+    background-color: #f9fbe7
+}
+
+.my-post-area textarea,
+.my-post-area textarea{
+    height: 40px;
+    min-width: calc(100% - 100px);
+    max-width: calc(100% - 100px);
+
+    font-size: 14px;
+    line-height: 1.5;
+    border: none;
+    resize: none;
+    text-align: left
+}
+.mainpanel .panel-body{
+    padding: 10px 15px
+}
+.mainpanel ul{
+    list-style: none;
+
+}
+.post-item{
+    padding: 5px 15px
+}
+.post-item-stats{
+    margin-bottom: 0px!important
+}
+.post-item-stats li{
+    margin: 5px 10px
+}
+.post-item-button li{
+    margin: 5px 10px;
+
+}
+.post-item-button img.image24{
+
+    cursor: pointer;
+}
+/*------------------------------------footer---------------------------*/
+.main-footer{
+    width:100%;
+    height: 48px;
+    background-color: #1f1f23;
+    padding: 0px 25px;
+    z-index: 100
+}
+/*------------------------ images ---------------------------*/
+
+.fullimage{
+    width: 100%;
+    height: auto
+}
+.image48{
+    width:48px;
+    width: 48px
+}
+.image24{
+    width:24px;
+    height:24px
+}
+/* ---------------------------------- panels ------------------------------*/
+.panel-shadow{
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+/* ============================== modals =================================*/
+
+/*-------------------- comments dialog ----------------------------*/
+.showcommentsdialog{
+    display: none;
+    width:50%;
+    max-height: 350px;
+    position: absolute;
+    z-index: 200;
+    top: 50px
+}
+.showcommentsdialog .panel-body.hasmedia>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 280px;
+    background-color: graytext;
+    padding: 10px 0px
+}
+.showcommentsdialog .panel-body>div {
+    height: 280px;
+    background-color: #f9fbe7;
+    padding: 10px 0px
+}
+.post-item-comments{
+    background-color: #f9fbe7;
+    width: 100%;
+    height: 100%;
+}
+
+.post-item-comments .post-area{
+    position: absolute;
+    bottom: 0;
+    margin-top: 4px
+}
+/* ------------------------------ add media dialog -----------------------*/
+.mediadialog,
+.imagedialog,
+.videodialog,
+.audiodialog,
+.textdialog,
+.govdialog{
+    display: none;
+    min-width: 40%;
+    min-height: 250px;
+    position: absolute;
+    z-index: 1000;
+    top: 64px;
+    background-color: whitesmoke;
+    -webkit-transition: all .5s -ease-in-out;
+    transition: all .5s ease-in-out
+}
+.messagedialog{
+
+    min-width: 40%;
+    top: auto;
+    left: auto;
+    max-height: 500px;
+    position:absolute;
+    z-index: 1000;
+
+    background-color: whitesmoke;
+    -webkit-transition: all .5s -ease-in-out;
+    transition: all .5s ease-in-out
+}
+.messagedialog-text{
+    padding: 10px 15px;
+    width: 100%;
+    min-height: 36px;
+    color: #000000;
+    opacity: .8
+}
+#messagedialogtextarea{
+    display: none;
+    -webkit-transition: all .5s -ease-in-out;
+    transition: all .5s ease-in-out
+
+}
+.messagedialog #myTabContent{
+    background-color: whitesmoke;
+    border: 5px gray solid;
+    padding: 10px 0px
+}
+#replies{
+    overflow-y: scroll
+}
+/*chat bubble */
+.chat-bubble.right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+.chat-bubble{
+    width: 100%;
+    min-width: 136px;
+    margin:2px 0px;
+    padding: 6px;
+    min-height: 40px; 
+    transition: all .5s ease-in-out;
+    transition-timing-function: ease
+}
+.chat-bubble.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bubble-select{
+    display: none;
+    align-self: center;
+    width:16px;
+    height: 16px;
+    padding: 4px!important;
+    transition: display .5s ease-in-out;
+    transition-timing-function: ease;
+}
+
+.bubble-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 65%;
+    padding: 5px;
+    min-height: 40px;
+    background-color: #428bca;
+    border-radius: 3px;
+}
+.bubble-content p{
+    max-width: 95%;
+    text-align: left;
+    padding:0px;
+    margin: 0px;
+    line-height: 1.2;
+    word-break: break-all;
+    line-break: strict
+}
+.bubble-extra{
+    background-color: #428bca;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-self: flex-end;
+}
+.chat-bubble.left{
+    float: left;
+}
+.chat-bubble.right{
+    float: right
+}
+#followup ul{
+    padding: 0px!important;
+    margin: 0px!important
+}
+.commentator{
+    width: 100%;
+    list-style: none;
+
+}
+.commentator button{
+    width: 100%;
+    border-radius: 0px!important
+
+}
+.commentator-message{
+    overflow-y: scroll;
+    width: 100%;
+    height: 0px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+
+}
+
+#finalize ul{
+    list-style: none;
+    padding: 10px 15px;
+    margin-bottom: 0px!important
+}
+#finalize ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0px
+}
+.visible{
+    height: auto
+
+}
+.dialog{
+    display: none
+}
+.post-recipient input{
+    height: 48px;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px #26a69a solid;
+    resize: none;
+    text-align: left
+}
+.post-search-dropdown{
+    display: none;
+    top: 48px;
+    z-index: 502;
+    position: absolute;
+    min-height: 48px;
+    width: 100%;
+    background-color: #f9fbe7;
+    max-height: inherit;
+    overflow-y: scroll;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.post-search-dropdown .search-result-item{
+    width: 100%;
+    height: 48px;
+    padding-left: 15px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.search-result-item:hover,
+.search-result-item:active{
+    background-color: #ffffff;
+    cursor: pointer
+}
+.dragImagebox{
+    width: 100%;
+    height: 202px;
+    padding: 6px;
+    background-color: whitesmoke
+}
+.chooseImageFromDevice{
+    width: 100%;
+    height: 200px;
+    border:2px #aaa dashed
+}
+
+
+/*------------------------------gov dialog-----------------------------*/
+.govdialog-media{
+    width: 100px;
+    height: 34px;
+    padding: 0px 15px
+}
+.govdialog-media input{
+    width: 100px;
+    height: 34px;
+    opacity: 0;
+    z-index: 503;
+    position:absolute
+}
+.govdialog-media button{
+    width: 100px;
+    visibility: visible
+}
+.govdialog-issue{
+    color: #000;
+    opacity: 0.64
+}
+.dragImagebox{
+    width: 100%;
+    height: 202px;
+    padding: 6px;
+    background-color: whitesmoke
+}
+.chooseImageFromDevice{
+    width: 100%;
+    height: 200px;
+    border:2px #aaa dashed
+}
+.dragImagebox input{
+
+}
+.sitecover{
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 999;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+#main_page_common_user_posts_preview{
+    
+    margin-bottom: 70px!important;
+    
+
+}
+#main_page_carousel_new_posts{
+    bottom: 50px!important;
+    margin-top:10px!important;
+    margin-bottom: 20px!important;
+   
+    z-index:100!important;
+   
+    cursor:pointer!important;
+   
+    margin-left:40%!important;
+    padding: 5px 10px!important;
+   
+}

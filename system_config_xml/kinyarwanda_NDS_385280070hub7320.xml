@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<nds>
+	<generalsettings>
+		<!--Common header   -->
+		<_header>
+			<progressloader>Biracyaza...</progressloader>
+			<progressloader_ok>Byarangiye/ Byatunganye/ Ubu bimeze neza!</progressloader_ok>
+                        <progressloader_incorrect>Ijambo ry'ibanga washyizemo siryo</progressloader_incorrect>
+			<progressloader_failed>Ikibazo cy'umurongo wa interineti</progressloader_failed>
+		</_header>
+		<!--Other header   -->
+		<_header_>
+			<mainpage_logout>Gusohokamo</mainpage_logout>
+			<mainpage_messenger_confirm_Activate>Waba koko ushaka Kwemerera</mainpage_messenger_confirm_Activate>
+			<mainpage_messenger_confirm_Suspend>Waba koko ushaka Guhagarika</mainpage_messenger_confirm_Suspend>
+			<mainpage_messenger_confirm_Reactivate>Waba koko ushaka Kugarura iyi konti mubemerewe</mainpage_messenger_confirm_Reactivate>
+			<mainpage_messenger_account>Konti</mainpage_messenger_account>
+			<mainpage_cancel_btn>Gusiba</mainpage_cancel_btn>
+			<mainpage_Confirm_btn>Kwemeza</mainpage_Confirm_btn>
+		</_header_>
+		<!--Common home page   -->
+		<homepage>
+			<nds_home_brief_intro>Niba ushaka gukoresha NDS muri telephoni za Android ubu mwayihabona ushakisha: </nds_home_brief_intro>
+		<nds_home_signin_btn>Kwinjira</nds_home_signin_btn>
+		<nds_home_signup_btn>iyandike</nds_home_signup_btn>
+		<nds_home_login_panel_title>Aho kwinjirira</nds_home_login_panel_title>
+		<nds_home_login_panel_close_btn>Funga</nds_home_login_panel_close_btn>
+		<nds_home_login_panel_username>Izina nkoresha</nds_home_login_panel_username>
+		<nds_home_login_panel_password>Ijambo ryibanga</nds_home_login_panel_password>
+		<nds_home_login_panel_btn_signin>Kwinjira</nds_home_login_panel_btn_signin>
+		<nds_home_login_panel_signin_error>Ikibazo cy'umurongo wa interineti</nds_home_login_panel_signin_error>
+		<nds_home_create_account_title>Gufungura konti nshya</nds_home_create_account_title>
+		<nds_home_create_account_individual>iyandike </nds_home_create_account_individual>
+		<nds_home_create_account_institution>Ikigo</nds_home_create_account_institution>
+		<nds_home_create_account_officials>Abakozi b'ikigo</nds_home_create_account_officials>
+		<nds_home_create_account_signin_with_facebook>Koresha  Facebook</nds_home_create_account_signin_with_facebook>
+		<nds_home_create_account_signin_with_google>Koresha  Gmail</nds_home_create_account_signin_with_google>
+		<nds_home_create_account_firstname>Izina ry' umuryango / Izina</nds_home_create_account_firstname>
+		<nds_home_create_account_lastname>Andi mazina</nds_home_create_account_lastname>
+		<nds_home_create_account_birthdate>Itariki y' amavuko</nds_home_create_account_birthdate>
+		<nds_home_create_account_gender>Igitsina</nds_home_create_account_gender>
+		<nds_home_create_account_gender_male>Igitsina Gabo</nds_home_create_account_gender_male>
+		<nds_home_create_account_gender_female>Igitsina Gore</nds_home_create_account_gender_female>
+		<nds_home_create_account_profession>Umwuga</nds_home_create_account_profession>
+		<nds_home_create_account_maritalstatus_>Irangamimerere</nds_home_create_account_maritalstatus_>
+		<nds_home_create_account_maritalstatus_single>Ingaragu</nds_home_create_account_maritalstatus_single>
+		<nds_home_create_account_maritalstatus_married>Narashyingiwe</nds_home_create_account_maritalstatus_married>
+		<nds_home_create_account_maritalstatus_divorced>Twatandukanye nuwo twashakanye</nds_home_create_account_maritalstatus_divorced>
+		<nds_home_create_account_maritalstatus_widow>Umupfakazi/ Uwo twashakanye yarapfuye</nds_home_create_account_maritalstatus_widow>
+		<nds_home_create_account_maritalstatus_widower>mupfakare/ Uwo twashakanye yarapfuye</nds_home_create_account_maritalstatus_widower>
+		<nds_home_create_account_province>Intara</nds_home_create_account_province>
+		<nds_home_create_account_district>Akarere</nds_home_create_account_district>
+		<nds_home_create_account_sector>Umurenge</nds_home_create_account_sector>
+		<nds_home_create_account_email>Email/ Ubutumwa byo kuri murandasi</nds_home_create_account_email>
+		<nds_home_create_account_password>Ijambo ryibanga</nds_home_create_account_password>
+		<nds_home_create_account_password_confirm>Emeza ijambo ry' ibanga</nds_home_create_account_password_confirm>
+		<nds_home_create_account_phone>Telefoni</nds_home_create_account_phone>
+		<nds_home_create_account_register_btn>iyandike</nds_home_create_account_register_btn>
+		<nds_home_create_account_clear_btn>Siba</nds_home_create_account_clear_btn>
+		<nds_home_create_account_institution_title>Ikigo</nds_home_create_account_institution_title>
+		<nds_home_create_account_institution_website>Urubuga rya murandasi</nds_home_create_account_institution_website>
+		<nds_home_create_account_institution_infomail>email y' ikigo/ Konti y' ubutumwa bwa murandasi ku kigo</nds_home_create_account_institution_infomail>
+		<nds_home_create_account_institution_province>Intara</nds_home_create_account_institution_province>
+		<nds_home_create_account_institution_district>Akarere</nds_home_create_account_institution_district>
+		<nds_home_create_account_institution_sector>Umurenge</nds_home_create_account_institution_sector>
+		<nds_home_create_account_institution_motto>Ikivugo</nds_home_create_account_institution_motto>
+		<nds_home_create_account_institution_username>Izina nkoresha</nds_home_create_account_institution_username>
+		<nds_home_create_account_institution_password>Ijambo ryibanga</nds_home_create_account_institution_password>
+		<nds_home_create_account_institution_password_confirm>Emeza ijambo ry' ibanga</nds_home_create_account_institution_password_confirm>
+		<nds_home_create_account_institution_register_btn>iyandike</nds_home_create_account_institution_register_btn>
+		<nds_home_create_account_institution_clear_btn>Siba</nds_home_create_account_institution_clear_btn>
+		<nds_home_create_account_officials_firstname>Izina ry' umuryango / Izina</nds_home_create_account_officials_firstname>
+		<nds_home_create_account_officials_lastname>Andi mazina</nds_home_create_account_officials_lastname>
+		<nds_home_create_account_officials_marital_status>Irangamimerere</nds_home_create_account_officials_marital_status>
+		<nds_home_create_account_officials_marital_status_single>Ingaragu</nds_home_create_account_officials_marital_status_single>
+		<nds_home_create_account_officials_marital_status_married>Narashyingiwe</nds_home_create_account_officials_marital_status_married>
+		<nds_home_create_account_officials_marital_status_divorced>Twatandukanye nuwo twashakanye</nds_home_create_account_officials_marital_status_divorced>
+		<nds_home_create_account_officials_marital_status_widow>Umupfakazi/ Uwo twashakanye yarapfuye</nds_home_create_account_officials_marital_status_widow>
+		<nds_home_create_account_officials_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</nds_home_create_account_officials_marital_status_widower>
+		<nds_home_create_account_officials_gender>Igitsina</nds_home_create_account_officials_gender>
+		<nds_home_create_account_officials_gender_male>Igitsina Gabo</nds_home_create_account_officials_gender_male>
+		<nds_home_create_account_officials_gender_female>Igitsina Gore</nds_home_create_account_officials_gender_female>
+		<nds_home_create_account_officials_institution>Ikigo</nds_home_create_account_officials_institution>
+		<nds_home_create_account_officials_department>Ishami ry' akazi</nds_home_create_account_officials_department>
+		<nds_home_create_account_officials_position>Icyo Ushinzwe/ Umwanya urimo</nds_home_create_account_officials_position>
+		<nds_home_create_account_officials_officelocation>Aho ibiro biherereye</nds_home_create_account_officials_officelocation>
+		<nds_home_create_account_officials_province>Intara</nds_home_create_account_officials_province>
+		<nds_home_create_account_officials_district>Akarere</nds_home_create_account_officials_district>
+		<nds_home_create_account_officials_sector>Umurenge</nds_home_create_account_officials_sector>
+		<nds_home_create_account_officials_workphone>Telefoni y'akazi</nds_home_create_account_officials_workphone>
+		<nds_home_create_account_officials_company_mail_address>Email y' ikigo</nds_home_create_account_officials_company_mail_address>
+		<nds_home_create_account_officials_password>Ijambo ryibanga</nds_home_create_account_officials_password>
+		<nds_home_create_account_officials_confirm_password>Emeza ijambo ry' ibanga</nds_home_create_account_officials_confirm_password>
+		<nds_home_create_account_officials_register_btn>iyandike</nds_home_create_account_officials_register_btn>
+		<nds_home_create_account_officials_clear_btn>Siba</nds_home_create_account_officials_clear_btn>
+                
+                <nds_home_available_on_android><!--Available on Android-->Dusange kuri Android </nds_home_available_on_android>
+                <nds_home_watch_video><!--Watch video-->Reba videwo</nds_home_watch_video>
+	</homepage>
+	<community_user_footer>
+		<community_user_footer_leave_a_suggestion>Tanga icyifuzo</community_user_footer_leave_a_suggestion>
+		<community_user_footer_leave_a_suggestion_names>Amazina</community_user_footer_leave_a_suggestion_names>
+		<community_user_footer_leave_a_suggestion_email_address>Email/ Ubutumwa byo kuri murandasi</community_user_footer_leave_a_suggestion_email_address>
+		<community_user_footer_leave_a_suggestion_submit>Kohereza</community_user_footer_leave_a_suggestion_submit>
+		<community_user_footer_leave_a_suggestion_message>Ubutumwa</community_user_footer_leave_a_suggestion_message>
+		<community_user_footer_leave_a_suggestion_address>Aho ubarizwa</community_user_footer_leave_a_suggestion_address>
+		<community_user_footer_leave_a_suggestion_all_rights_reserved>Uburenganzira Bwose Bufitwe</community_user_footer_leave_a_suggestion_all_rights_reserved>
+		
+	</community_user_footer>
+	<!--Common waiting and confirmation page   -->
+	<waitingpage>
+		<verificationtitle>Igenzura</verificationtitle>
+		<verification_brief_explanation>Hari ubutumwa burimo imibare bwoherejwe kuri email yawe, andika iyo mibare mu kazu kari munsi hano</verification_brief_explanation>
+		<verification_type_code_here>Andika imibare ya kode hano</verification_type_code_here>
+		<verification_edit>Hindura</verification_edit>
+		<verification_verify_btn>Genzura</verification_verify_btn>
+		<verification_go_back_btn>Subira inyuma</verification_go_back_btn>
+		<verification_go_resend_msg>Niba ntabutumwa wabonye, kanda ahanditse KSubiramo/ Kongera kohereza</verification_go_resend_msg>
+		<verification_go_resend_btn>Subiramo</verification_go_resend_btn>
+	</waitingpage>
+	<!--Common User Settings Page   -->
+	<community_user_settings>
+		<community_user_settings_language_tab>Ururimi</community_user_settings_language_tab>
+		<community_user_settings_admin_tab>Umugenzuzi</community_user_settings_admin_tab>
+		<community_user_settings_notification_tab>Imbuzi/ Imenyeshwa</community_user_settings_notification_tab>
+		<community_user_settings_preferences_tab>Amahitamo yanjye</community_user_settings_preferences_tab>
+		<community_user_settings_privacy_tab>Ibyihariye kurinjye</community_user_settings_privacy_tab>
+		<community_user_settings_ads_tab>Kwamamaza</community_user_settings_ads_tab>
+		<community_user_settings_activated_users>Abemerewe</community_user_settings_activated_users>
+		<community_user_settings_notactivated_users>Abataremerwa gukora</community_user_settings_notactivated_users>
+		<community_user_settings_suspended_users>Abakozi bahagaritswe</community_user_settings_suspended_users>
+		<community_user_settings_names>Amazina</community_user_settings_names>
+		<community_user_settings_position>Icyo Ushinzwe/ Umwanya urimo</community_user_settings_position>
+		<community_user_settings_levelofpriviledge>Ikigero kibyo yemerewe gukora</community_user_settings_levelofpriviledge>
+		<community_user_settings_startdate>Itariki ibanza</community_user_settings_startdate>
+		<community_user_settings_emailaddress>Email/ Ubutumwa byo kuri murandasi</community_user_settings_emailaddress>
+		<community_user_settings_level>Ikigero</community_user_settings_level>
+		<community_user_settings_suspend_user>Guhagarika umukozi</community_user_settings_suspend_user>
+		<community_user_settings_activate_user>Kwemerera</community_user_settings_activate_user>
+		<community_user_settings_reactivate_user>Kongera Kwemerera</community_user_settings_reactivate_user>
+		<community_user_settings_notification>Imbuzi/ Imenyeshwa</community_user_settings_notification>
+		<community_user_settings_newmsgscoming>Ubutumwa Bushya bwashyitse</community_user_settings_newmsgscoming>
+		<community_user_settings_copy_mail>Kubona kopi y'ubutumwa muri email yanjye</community_user_settings_copy_mail>
+		<community_user_settings_all_notification>Ibishya byose</community_user_settings_all_notification>
+		<community_user_settings_noti_on_my_nber>Menyeshwe kuri telefoni</community_user_settings_noti_on_my_nber>
+		<community_user_preferences>Amahitamo yanjye</community_user_preferences>
+		<community_user_stay_loggedin>Konti yanjye ibume ifunguye</community_user_stay_loggedin>
+		<community_user_receive_mail_updates>Kwakira ubutumwa bumenyesha kuri konti ya murandasi</community_user_receive_mail_updates>
+		<community_user_stay_tag_title>Amagambo y'ingezi andanga yihariye</community_user_stay_tag_title>
+		<community_user_stay_tag_title_1>Ibindanga</community_user_stay_tag_title_1>
+		<community_user_stay_tag_identifier_field>Andika Ijambo ry'ingenzi rishya</community_user_stay_tag_identifier_field>
+		<community_user_stay_tag_identifier_btn_new>Ijambo ryishya rindanga</community_user_stay_tag_identifier_btn_new>
+		<community_user_stay_tag_identifier_save_changes_btn>Bika impiduka </community_user_stay_tag_identifier_save_changes_btn>
+		<community_user_stay_tag_identifier_Delete_btn>Siba</community_user_stay_tag_identifier_Delete_btn>
+		<community_user_stay_tag_keywords>Amagambo y'ingezi andanga</community_user_stay_tag_keywords>
+		<community_user_stay_tag_newkeywordhere>Ijambo ry'ingenzi rishyashya</community_user_stay_tag_newkeywordhere>
+		<community_user_stay_tag_createnewkeyword>Ijambo ryingenzi rishyashya</community_user_stay_tag_createnewkeyword>
+		<community_user_stay_tag_save_changes>Bika impiduka </community_user_stay_tag_save_changes>
+		<community_user_stay_tag_delete>Siba</community_user_stay_tag_delete>
+		<community_user_privacy>Ibyihariye kurinjye</community_user_privacy>
+		<community_user_privacy_whenimasugges>Igihe ntanze igitekerezo</community_user_privacy_whenimasugges>
+		<community_user_privacy_letallmydet>Ibinyerekeyeho byose bizagaragara</community_user_privacy_letallmydet>
+		<community_user_privacy_onlyuserLo>Hagaragare izina nkoresha naho mbarizwa gusa</community_user_privacy_onlyuserLo>
+		<community_user_privacy_onlyuser>Izina nkoresha Rizagaragara ryonyine</community_user_privacy_onlyuser>
+		<community_user_privacy_posts>Ibyanditswe</community_user_privacy_posts>
+		<community_user_privacy_myusrnameappear>Izina nkoresha Rizagaragara</community_user_privacy_myusrnameappear>
+		<community_user_privacy_useothernameappear>Koresha irindi zina</community_user_privacy_useothernameappear>
+		<community_user_privacy_useothernameappear_placehold>Irindi zina</community_user_privacy_useothernameappear_placehold>
+		<community_user_privacy_sendingQtoGvt>Mu kohereza ikibazo mubigo bya leta</community_user_privacy_sendingQtoGvt>
+		<community_user_privacy_AllMyDseen>Ibinyerekeyeho byose bizagaragara</community_user_privacy_AllMyDseen>
+		<community_user_privacy_save_new_name>Bika izina rishya</community_user_privacy_save_new_name>
+		<community_user_privacy_OMyUsername>Izina nkoresha Rizagaragara ryonyine</community_user_privacy_OMyUsername>
+		<community_user_privacy_User_loc>Izina nkoresha naho mbarizwa</community_user_privacy_User_loc>
+		<community_user_privacy_manageAds>Kuyobora ibyamamazwa</community_user_privacy_manageAds>
+		<community_user_privacy_myAds>Uko namamaje</community_user_privacy_myAds>
+		<community_user_privacy_myPaidAdverts>Ubutumwa bwamamaza nishyuriye</community_user_privacy_myPaidAdverts>
+		<community_user_privacy_startdate>Itariki ibanza</community_user_privacy_startdate>
+		<community_user_privacy_finishdate>Umunsi usoza/ wanyuma</community_user_privacy_finishdate>
+		<community_user_privacy_starttime>Uhereye saa</community_user_privacy_starttime>
+		<community_user_privacy_finishtime>Kugeza saa</community_user_privacy_finishtime>
+		<community_user_privacy_name>Izina</community_user_privacy_name>
+		<community_user_privacy_reach>Aho byageze/ Abo byagezeho</community_user_privacy_reach>
+		<community_user_privacy_price>Igiciro</community_user_privacy_price>
+		<community_user_create_your_own_advert>Kora icyamamazwa</community_user_create_your_own_advert>
+	</community_user_settings>
+	<!--Institution or Admin Settings Page   -->
+	<institution_user_settings>
+		<institution_user_settings_admin>Umugenzuzi</institution_user_settings_admin>
+		<institution_user_settings_language>Ururimi</institution_user_settings_language>
+		<institution_user_settings_notification>Imbuzi/ Imenyeshwa</institution_user_settings_notification>
+		<institution_user_settings_preferences>Amahitamo yanjye</institution_user_settings_preferences>
+		<institution_user_settings_privacy>Ibyihariye kurinjye</institution_user_settings_privacy>
+		<institution_user_settings_ads>Kwamamaza</institution_user_settings_ads>
+		<institution_user_settings_activated_users>Abemerewe gukora</institution_user_settings_activated_users>
+		<institution_user_settings_not_activated_users>Abataremerwa gukora</institution_user_settings_not_activated_users>
+		<institution_user_settings_suspended_users>Guhagarika umukozi</institution_user_settings_suspended_users>
+		<institution_user_settings_names>Amazina</institution_user_settings_names>
+		<institution_user_settings_position>Icyo Ushinzwe/ Umwanya ndimo</institution_user_settings_position>
+		<institution_user_settings_levelOfPriviledge>Ikigero kibyo yemerewe gukora</institution_user_settings_levelOfPriviledge>
+		<institution_user_settings_startdate>Itariki ibanza</institution_user_settings_startdate>
+		<institution_user_settings_email_address>Email/ Ubutumwa byo kuri murandasi</institution_user_settings_email_address>
+		<institution_user_settings_level5>Urwego rwa 5(Byose + Igenamiterere)</institution_user_settings_level5>
+		<institution_user_settings_level4>Urwego rwa 4(Gusoma, Kwandika, Gusiba, Guhindura , no gushyira mu nshingano abo hanze y'ikigo)</institution_user_settings_level4>
+		<institution_user_settings_level3>Urwego rwa 3(Gusoma, Kwandika, Gusiba, Guhindura, no Kuvugana n'abo hanze y'ikigo)</institution_user_settings_level3>
+		<institution_user_settings_level2>Urwego rwa 2(Gusoma, Kwandika, no Guhindura)</institution_user_settings_level2>
+		<institution_user_settings_level1>Urwego rwa 1(Gusoma no Kwandika)</institution_user_settings_level1>
+		<institution_user_settings_level0>Gusoma</institution_user_settings_level0>
+		<institution_user_settings_suspend_user>Guharagarika umukozi</institution_user_settings_suspend_user>
+		<institution_user_settings_activate_user>Kwemerera Umukozi</institution_user_settings_activate_user>
+		<institution_user_settings_reactivate_user>Kongera kwemerera Umukozi</institution_user_settings_reactivate_user>
+		<institution_user_settings_newmessagescoming>Ubutumwa Bushya bwashyitse</institution_user_settings_newmessagescoming>
+		<institution_user_settings_copymailaddress>Kubona kopi y'ubutumwa muri email yanjye</institution_user_settings_copymailaddress>
+		<institution_user_settings_allnotifications>Ibishya byose</institution_user_settings_allnotifications>
+		<institution_user_settings_sendNotToMynber>Menyeshwe kuri telefoni</institution_user_settings_sendNotToMynber>
+		<institution_user_settings_stayloggedin>Konti yanjye igume ifunguye</institution_user_settings_stayloggedin>
+		<institution_user_settings_receiveemailupdates>Kwakira ubutumwa bumenyesha kuri konti ya murandasi</institution_user_settings_receiveemailupdates>
+		<institution_user_settings_tags_special_keywords>Amagambo yingezi andanga yihariye</institution_user_settings_tags_special_keywords>
+		<institution_user_settings_tags_identifier>Ibindanga</institution_user_settings_tags_identifier>
+		<institution_user_settings_tags_identifier_placeholder>Ijambo ryishya rindanga</institution_user_settings_tags_identifier_placeholder>
+		<institution_user_settings_tags_new_tag_identifier_placeholder>Ijambo ryishya rindanga</institution_user_settings_tags_new_tag_identifier_placeholder>
+		<institution_user_settings_tags_save_changes>Bika impiduka </institution_user_settings_tags_save_changes>
+		<institution_user_settings_tags_delete>Siba</institution_user_settings_tags_delete>
+		<institution_user_settings_tags_keywords>Amagambo yingezi andanga</institution_user_settings_tags_keywords>
+		<institution_user_settings_tags_new_keyword>Ijambo ry'ingenzi rishyashya</institution_user_settings_tags_new_keyword>
+		<institution_user_settings_tags_new_keyword_btn>Ijambo ryingenzi rishyashya</institution_user_settings_tags_new_keyword_btn>
+		<institution_user_settings_tags_save_changes_btn>Bika impiduka </institution_user_settings_tags_save_changes_btn>
+		<institution_user_settings_tags_delete_btn>Siba</institution_user_settings_tags_delete_btn>
+		<institution_user_settings_privacy_QToGvtInst>Mu kohereza ikibazo mubigo bya leta</institution_user_settings_privacy_QToGvtInst>
+		<institution_user_settings_privacy_AllmyDetails>Ibinyerekeyeho byose bizagaragara</institution_user_settings_privacy_AllmyDetails>
+		<institution_user_settings_privacy_UsernameLoc>Hagaragare izina nkoresha naho mbarizwa gusa</institution_user_settings_privacy_UsernameLoc>
+		<institution_user_settings_privacy_Username>Izina nkoresha Rizagaragara ryonyine</institution_user_settings_privacy_Username>
+		<institution_user_settings_privacy_posts_title>Ibyanditswe n'ikigo cyanjye</institution_user_settings_privacy_posts_title>
+		<institution_user_settings_privacy_showUsername>Izina nkoresha Rizagaragara</institution_user_settings_privacy_showUsername>
+		<institution_user_settings_privacy_showOtherUsername>Icyanditswe gihagarariye ikigo</institution_user_settings_privacy_showOtherUsername>
+		<institution_user_settings_privacy_showOtherUsername_placeH>Irindi zina</institution_user_settings_privacy_showOtherUsername_placeH>
+		<institution_user_settings_privacy_showOtherUsername_SaveNewName>Bika izina rishya</institution_user_settings_privacy_showOtherUsername_SaveNewName>
+		<institution_user_settings_privacy_sendingToQGovInst>=>Kohereza ikibazo mu bigo bya leta</institution_user_settings_privacy_sendingToQGovInst>
+		<institution_user_settings_privacy_AllMyDetails>Ibinyerekeyeho byose bizagaragara</institution_user_settings_privacy_AllMyDetails>
+		<institution_user_settings_privacy_onlyMyUsername>Izina nkoresha Rizagaragara ryonyine</institution_user_settings_privacy_onlyMyUsername>
+		<institution_user_settings_privacy_onlyMyUsernameLoc>Hagaragare izina nkoresha naho mbarizwa gusa</institution_user_settings_privacy_onlyMyUsernameLoc>
+		<institution_user_settings_privacy_manageAds>Kuyobora Ibyamamazwa</institution_user_settings_privacy_manageAds>
+		<institution_user_settings_privacy_myAds>Uko namamaje</institution_user_settings_privacy_myAds>
+		<institution_user_settings_privacy_mypaidAdverts>Ubutumwa bwamamaza nishyuriye</institution_user_settings_privacy_mypaidAdverts>
+		<institution_user_settings_privacy_startdate>Itariki ibanza</institution_user_settings_privacy_startdate>
+		<institution_user_settings_privacy_finishdate>Umunsi usoza/ wanyuma</institution_user_settings_privacy_finishdate>
+		<institution_user_settings_privacy_starttime>Itariki ibanza</institution_user_settings_privacy_starttime>
+		<institution_user_settings_privacy_finishtime>Umunsi usoza/ wanyuma</institution_user_settings_privacy_finishtime>
+		<institution_user_settings_privacy_name>Izina</institution_user_settings_privacy_name>
+		<institution_user_settings_privacy_reach>Aho byageze/ Abo byagezeho</institution_user_settings_privacy_reach>
+		<institution_user_settings_privacy_price>Igiciro</institution_user_settings_privacy_price>
+
+	</institution_user_settings>
+	<!--Official User Settings Page   -->
+	<official_user_settings>
+		<official_user_settings_admin>Umugenzuzi</official_user_settings_admin>
+		<official_user_settings_language>Ururimi</official_user_settings_language>
+		<official_user_settings_notification>Imbuzi/ Imenyeshwa</official_user_settings_notification>
+		<official_user_settings_preferences>Amahitamo yanjye</official_user_settings_preferences>
+		<official_user_settings_privacy>Ibyihariye kuri njye</official_user_settings_privacy>
+		<official_user_settings_ads>Kwamamaza</official_user_settings_ads>
+		<official_user_settings_activated_users>Abemerewe gukora</official_user_settings_activated_users>
+		<official_user_settings_not_activated_users>Abataremerwa gukora</official_user_settings_not_activated_users>
+		<official_user_settings_suspended_users>Abongeye kwemererwa gukora</official_user_settings_suspended_users>
+		<official_user_settings_names>Amazina</official_user_settings_names>
+		<official_user_settings_position>Icyo Ushinzwe/ Umwanya ndimo</official_user_settings_position>
+		<official_user_settings_levelofpriviledge>Ikigero cy'ibyo yemerewe gukora</official_user_settings_levelofpriviledge>
+		<official_user_settings_startdate>Itariki ibanza</official_user_settings_startdate>
+		<official_user_settings_emailaddress>Email/ Ubutumwa byo kuri murandasi</official_user_settings_emailaddress>
+		<official_user_settings_level>Urwego</official_user_settings_level>
+		<official_user_settings_suspend_user>Guhagarika umukozi</official_user_settings_suspend_user>
+		<official_user_settings_activate_user>Kwemerera umukozi</official_user_settings_activate_user>
+		<official_user_settings_reactivate_user>Kongera kwemerera umukozi</official_user_settings_reactivate_user>
+		<official_user_settings_notification_newmessagescoming>Ubutumwa Bushya bwashyitse</official_user_settings_notification_newmessagescoming>
+		<official_user_settings_notification_copymymail>Kubona kopi y'ubutumwa muri email yanjye</official_user_settings_notification_copymymail>
+		<official_user_settings_notification_allnotifications>Ibishya byose</official_user_settings_notification_allnotifications>
+		<official_user_settings_notification_notifications_to_my_nber>Menyeshwe kuri telefoni</official_user_settings_notification_notifications_to_my_nber>
+		<official_user_settings_preferences_title>Amahitamo yanjye</official_user_settings_preferences_title>
+		<official_user_settings_preferences_stayloggedin>Konti yanjye ibume ifunguye</official_user_settings_preferences_stayloggedin>
+		<official_user_settings_preferences_receive_email_updates>Kwakira ubutumwa bumenyesha kuri konti ya murandasi</official_user_settings_preferences_receive_email_updates>
+		<official_user_settings_preferences_tags_special_keywords>Amagambo yingezi andanga yihariye</official_user_settings_preferences_tags_special_keywords>
+		<official_user_settings_preferences_tags_identifier>Ibindanga</official_user_settings_preferences_tags_identifier>
+		<official_user_settings_preferences_tags_identifier_placeholder>Ijambo ryishya rindanga</official_user_settings_preferences_tags_identifier_placeholder>
+		<official_user_settings_preferences_tags_identifier_btn>Ijambo ryishya rindanga</official_user_settings_preferences_tags_identifier_btn>
+		<official_user_settings_preferences_tags_identifier_btn_save_changes>Bika impiduka </official_user_settings_preferences_tags_identifier_btn_save_changes>
+		<official_user_settings_preferences_tags_identifier_btn_delete>Siba</official_user_settings_preferences_tags_identifier_btn_delete>
+		<official_user_settings_preferences_tags_keywords>Amagambo y'ingezi andanga</official_user_settings_preferences_tags_keywords>
+		<official_user_settings_preferences_tags_keywords_new_keyword_here>Andika Ijambo ryingenzi rishya</official_user_settings_preferences_tags_keywords_new_keyword_here>
+		<official_user_settings_preferences_tags_keywords_new_keyword_here_create>Ijambo ryingenzi rishyashya</official_user_settings_preferences_tags_keywords_new_keyword_here_create>
+		<official_user_settings_preferences_tags_keywords_savechanges>Bika impiduka </official_user_settings_preferences_tags_keywords_savechanges>
+		<official_user_settings_preferences_tags_keywords_delete>Siba</official_user_settings_preferences_tags_keywords_delete>
+		<official_user_settings_privacy_forward_a_query>=>Iyo nohereje ikibazo ku wundi muntu cg ikindi kigo</official_user_settings_privacy_forward_a_query>
+		<official_user_settings_privacy_all_details>Iby'ingenzi by'ikigo byose bizagaragara(Ikigo, Umwanya, n'Imyirindoro)</official_user_settings_privacy_all_details>
+		<official_user_settings_privacy_detailsOfInst>Iby'ingenzi by'ikigo byose</official_user_settings_privacy_detailsOfInst>
+		<official_user_settings_privacy_detailsOfInst_pos>Iby'ingenzi by'ikigo byose n'umwanya</official_user_settings_privacy_detailsOfInst_pos>
+		<official_user_settings_privacy_posts_title>=>Ibyanditswe</official_user_settings_privacy_posts_title>
+		<official_user_settings_privacy_posts_UsrnAppear>Izina nkoresha Rizagaragara</official_user_settings_privacy_posts_UsrnAppear>
+		<official_user_settings_privacy_posts_UsrOthNTitle>Gukoresha irindi zina</official_user_settings_privacy_posts_UsrOthNTitle>
+		<official_user_settings_privacy_posts_UsrOthNTitle_placeholder>Irindi zina</official_user_settings_privacy_posts_UsrOthNTitle_placeholder>
+		<official_user_settings_privacy_posts_UsrOthNTitle_save_new_name>Bika izina rishya</official_user_settings_privacy_posts_UsrOthNTitle_save_new_name>
+		<official_user_settings_privacy_sending_queries_title>=>Mu kohereza ikibazo mubigo bya leta</official_user_settings_privacy_sending_queries_title>
+		<official_user_settings_privacy_sending_queries_show_all_my_details>Ibinyerekeyeho byose bizagaragara</official_user_settings_privacy_sending_queries_show_all_my_details>
+		<official_user_settings_privacy_sending_queries_show_ony_usrNa>Izina nkoresha Rizagaragara ryonyine</official_user_settings_privacy_sending_queries_show_ony_usrNa>
+		<official_user_settings_privacy_sending_queries_show_usrNa_loc>Hagaragare izina nkoresha naho mbarizwa gusa</official_user_settings_privacy_sending_queries_show_usrNa_loc>
+		<official_user_settings_privacy_manageAds>Kuyobora Ibyamamazwa</official_user_settings_privacy_manageAds>
+		<official_user_settings_privacy_myAds>Uko namamaje</official_user_settings_privacy_myAds>
+		<official_user_settings_privacy_myAds_createNew>Gukora icyamamazwa</official_user_settings_privacy_myAds_createNew>
+		<official_user_settings_privacy_paid_adverts>Ubutumwa bwamamaza nishyuriye</official_user_settings_privacy_paid_adverts>
+		<official_user_settings_advertStartDate>Itariki ibanza</official_user_settings_advertStartDate>
+		<official_user_settings_advertFinishDate>Umunsi usoza/ wanyuma</official_user_settings_advertFinishDate>
+		<official_user_settings_advertStartTime>Uhereye kuwa</official_user_settings_advertStartTime>
+		<official_user_settings_advertFinishTime>Igihe byasorejweho/ igihe cyanyuma</official_user_settings_advertFinishTime>
+		<official_user_settings_advertName>Izina</official_user_settings_advertName>
+		<official_user_settings_advertReach>Aho byageze/ Abo byagezeho</official_user_settings_advertReach>
+		<official_user_settings_advertPrice>Igiciro</official_user_settings_advertPrice>	
+	</official_user_settings>
+	<!--Main Page for RGB Institution   -->
+	<main_page_institution_rgb>
+		<main_page_institution_rgb_notification_title>Imbuzi/ Imenyeshwa</main_page_institution_rgb_notification_title>
+		<main_page_institution_rgb_notification_no_message>Nta bishya bihari aka kanya</main_page_institution_rgb_notification_no_message>
+		<main_page_institution_rgb_message>Ubutumwa</main_page_institution_rgb_message>		
+		<main_page_institution_rgb_message_no_message>Uzakira ubutumwa buvuye kukigo mwatanzeho ibitekerezo/ ikibazo cyangwa ikifuzo</main_page_institution_rgb_message_no_message>
+				<main_page_institution_rgb_message_sent_to>CYOHEREJWE KURI</main_page_institution_rgb_message_sent_to>
+				<main_page_institution_rgb_queries_issued_title>IBIBAZO BYABAJIJWE</main_page_institution_rgb_queries_issued_title>
+				<main_page_institution_rgb_suggestion_box_title>AGASANDUKU K'IBITEKEREZO</main_page_institution_rgb_suggestion_box_title>
+				<main_page_institution_rgb_ascending_order_of_dates>Ubutumwa bwahageze mbere</main_page_institution_rgb_ascending_order_of_dates>
+				<main_page_institution_rgb_descending_order_of_dates>Ubutumwa buheruka</main_page_institution_rgb_descending_order_of_dates>
+				<main_page_institution_rgb_by_name>Hagendewe ku mazina</main_page_institution_rgb_by_name>
+				<main_page_institution_rgb_by_keyword>Hagendewe ku ijambo y' ingenzi</main_page_institution_rgb_by_keyword>
+				<main_page_institution_rgb_by_gender>Hagendewe ku gitsina</main_page_institution_rgb_by_gender>
+				<main_page_institution_rgb_by_male>Hangendewe ku gitsina Gabo</main_page_institution_rgb_by_male>
+				<main_page_institution_rgb_by_female>Hagendewe ku gistina Gore</main_page_institution_rgb_by_female>
+				<main_page_institution_rgb_by_marital_status>Hagendewe ku irangamimerere</main_page_institution_rgb_by_marital_status>
+				<main_page_institution_rgb_by_marital_status_single>Ingaragu</main_page_institution_rgb_by_marital_status_single>
+				<main_page_institution_rgb_by_marital_status_married>Narashyingiwe</main_page_institution_rgb_by_marital_status_married>
+				<main_page_institution_rgb_by_marital_status_divorced>Twatandukanye nuwo twashakanye</main_page_institution_rgb_by_marital_status_divorced>
+				<main_page_institution_rgb_by_marital_status_widow>Umupfakazi/ Uwo twashakanye yarapfuye</main_page_institution_rgb_by_marital_status_widow>
+				<main_page_institution_rgb_by_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</main_page_institution_rgb_by_marital_status_widower>
+				<main_page_institution_rgb_sort_btn>vangura</main_page_institution_rgb_sort_btn>
+				<main_page_institution_rgb_sort_by_category>Hagendewe ku byiciro</main_page_institution_rgb_sort_by_category>
+				<main_page_institution_rgb_sort_by_category_all>Byose</main_page_institution_rgb_sort_by_category_all>
+				<main_page_institution_rgb_sort_by_category_mutuelle>MUTUELLE</main_page_institution_rgb_sort_by_category_mutuelle>
+				<main_page_institution_rgb_sort_by_category_girinka>GIRINKA</main_page_institution_rgb_sort_by_category_girinka>
+				<main_page_institution_rgb_sort_by_category_umurenge_sacco>UMURENGE SACCO</main_page_institution_rgb_sort_by_category_umurenge_sacco>
+				<main_page_institution_rgb_sort_by_category_vup>VUP</main_page_institution_rgb_sort_by_category_vup>
+				<main_page_institution_rgb_sort_by_category_vup_ibi>IBIBAZO BY'ABATURAGE</main_page_institution_rgb_sort_by_category_vup_ibi>
+				<main_page_institution_rgb_sort_by_category_sort_btn>vangura</main_page_institution_rgb_sort_by_category_sort_btn>
+				<main_page_institution_rgb_sort_by_progress>Hangendewe mu mikemukire</main_page_institution_rgb_sort_by_progress>
+				<main_page_institution_rgb_sort_by_progress_unresolved>Ntibyakemutse</main_page_institution_rgb_sort_by_progress_unresolved>
+				<main_page_institution_rgb_sort_by_progress_resolved>Byaciyemo/ Byarakemutse/ Byaratunganye</main_page_institution_rgb_sort_by_progress_resolved>
+				<main_page_institution_rgb_sort_by_progress_pending>Birategereje/ Ibitararebwa/ Ntibirashyika/ Ntibirasubizwa</main_page_institution_rgb_sort_by_progress_pending>
+				<main_page_institution_rgb_sort_by_progress_unsatisfied>Ntibyanyuze/ Batanyuzwe</main_page_institution_rgb_sort_by_progress_unsatisfied>
+				<main_page_institution_rgb_sort_by_progress_in_progress>Hari guterwa intwambwe</main_page_institution_rgb_sort_by_progress_in_progress>
+				<main_page_institution_rgb_sort_by_progress_unread>Ntibyasomwe</main_page_institution_rgb_sort_by_progress_unread>
+				<main_page_institution_rgb_sort_by_progress_replied_to>Byarasubijwe</main_page_institution_rgb_sort_by_progress_replied_to>
+				<main_page_institution_rgb_sort_by_progress_sort_btn>vangura</main_page_institution_rgb_sort_by_progress_sort_btn>
+				<main_page_institution_rgb_sort_sorting_by_date_range>Hagati y' amatariki </main_page_institution_rgb_sort_sorting_by_date_range>
+				<main_page_institution_rgb_sort_sorting_by_date_range_from>Kuva</main_page_institution_rgb_sort_sorting_by_date_range_from>
+				<main_page_institution_rgb_sort_sorting_by_date_range_to>kuri</main_page_institution_rgb_sort_sorting_by_date_range_to>
+				<main_page_institution_rgb_sort_sorting_by_date_range_first_date>Ubanza/ Umunsi wambere</main_page_institution_rgb_sort_sorting_by_date_range_first_date>
+				<main_page_institution_rgb_sort_sorting_by_date_range_last_date>Uhera/ umunsi usoza</main_page_institution_rgb_sort_sorting_by_date_range_last_date>
+				<main_page_institution_rgb_sort_sorting_by_date_range_sort_in_ascending_order>Ubutumwa bwabanje</main_page_institution_rgb_sort_sorting_by_date_range_sort_in_ascending_order>
+				<main_page_institution_rgb_sort_sorting_by_date_range_sort_in_descending_order>Ubutumwa Bwaherutse</main_page_institution_rgb_sort_sorting_by_date_range_sort_in_descending_order>
+				<main_page_institution_rgb_category>Icyiciro:</main_page_institution_rgb_category>
+				<main_page_institution_rgb_reply>Subiza</main_page_institution_rgb_reply>
+				<main_page_institution_rgb_forward_as>Kohereza nka:</main_page_institution_rgb_forward_as>
+				<main_page_institution_rgb_delegation>Gutanga inshingano</main_page_institution_rgb_delegation>
+				<main_page_institution_rgb_consultation>Gusaba Inama</main_page_institution_rgb_consultation>
+				<main_page_institution_rgb_community_ascending_order_of_dates>Ubutumwa bwahageze mbere</main_page_institution_rgb_community_ascending_order_of_dates>
+				<main_page_institution_rgb_community_descending_order_of_dates>Ubutumwa buheruka</main_page_institution_rgb_community_descending_order_of_dates>
+				<main_page_institution_rgb_community_byname>Hagendewe ku mazina</main_page_institution_rgb_community_byname>
+				<main_page_institution_rgb_community_bykeyword>Hagendewe ku ijambo y' ingenzi</main_page_institution_rgb_community_bykeyword>
+				<main_page_institution_rgb_community_bygender>Hagendewe ku gitsina</main_page_institution_rgb_community_bygender>
+				<main_page_institution_rgb_community_bymale>Hagendewe ku gitsina Gabo</main_page_institution_rgb_community_bymale>
+				<main_page_institution_rgb_community_byfemale>Hagendewe ku gitsina Gore</main_page_institution_rgb_community_byfemale>
+				<main_page_institution_rgb_community_by_marital_status>Hagendewe ku irangamimerere</main_page_institution_rgb_community_by_marital_status>
+				<main_page_institution_rgb_community_by_marital_status_single>Ingaragu</main_page_institution_rgb_community_by_marital_status_single>
+				<main_page_institution_rgb_community_by_marital_status_married>Narashyingiwe</main_page_institution_rgb_community_by_marital_status_married>
+				<main_page_institution_rgb_community_by_marital_status_divorced>Twatandukanye nuwo twashakanye</main_page_institution_rgb_community_by_marital_status_divorced>
+				<main_page_institution_rgb_community_by_marital_status_widow>Umupfakazi/ Uwo twashakanye yarapfuye</main_page_institution_rgb_community_by_marital_status_widow>
+				<main_page_institution_rgb_community_by_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</main_page_institution_rgb_community_by_marital_status_widower>
+				<main_page_institution_rgb_community_by_marital_status_sort_btn>vangura</main_page_institution_rgb_community_by_marital_status_sort_btn>
+				<main_page_institution_rgb_community_by_media_type>Ku bwoko bw' ibyoherejwe</main_page_institution_rgb_community_by_media_type>
+				<main_page_institution_rgb_community_by_media_type_all>Byose</main_page_institution_rgb_community_by_media_type_all>
+				<main_page_institution_rgb_community_by_media_type_text>Tanga icyifuzo/igitekerezo mu magambo</main_page_institution_rgb_community_by_media_type_text>
+				<main_page_institution_rgb_community_by_media_type_audio>Tanga icyifuzo/igitekerezo mu majwi</main_page_institution_rgb_community_by_media_type_audio>
+				<main_page_institution_rgb_community_by_media_type_video>video</main_page_institution_rgb_community_by_media_type_video>
+				<main_page_institution_rgb_community_by_media_type_img>ifoto</main_page_institution_rgb_community_by_media_type_img>
+				<main_page_institution_rgb_community_by_media_type_sort_btn>vangura</main_page_institution_rgb_community_by_media_type_sort_btn>
+				<main_page_institution_rgb_community_sort_by_date_range>Hagati y' amatariki </main_page_institution_rgb_community_sort_by_date_range>
+				<main_page_institution_rgb_community_sort_by_date_range_from>Kuva</main_page_institution_rgb_community_sort_by_date_range_from>
+				<main_page_institution_rgb_community_sort_by_date_range_to>kuri</main_page_institution_rgb_community_sort_by_date_range_to>
+				<main_page_institution_rgb_community_sort_by_date_range_first_date>Ubanza/ Umunsi wambere</main_page_institution_rgb_community_sort_by_date_range_first_date>
+				<main_page_institution_rgb_community_sort_by_date_range_last_date>Uhera/ umunsi usoza</main_page_institution_rgb_community_sort_by_date_range_last_date>
+				<main_page_institution_rgb_community_sort_by_date_range_sort_in_ascending_order>Ubutumwa bwabanje</main_page_institution_rgb_community_sort_by_date_range_sort_in_ascending_order>
+				<main_page_institution_rgb_community_sort_by_date_range_sort_in_descending_order>Ubutumwa Bwaherutse</main_page_institution_rgb_community_sort_by_date_range_sort_in_descending_order>
+				<main_page_institution_rgb_community_image>Amashusho/Amafoto</main_page_institution_rgb_community_image>
+				<main_page_institution_rgb_community_text>Amagambo</main_page_institution_rgb_community_text>
+				<main_page_institution_rgb_community_video>Amashusho/ video</main_page_institution_rgb_community_video>
+				<main_page_institution_rgb_community_audio>Amajwi</main_page_institution_rgb_community_audio>
+				<main_page_institution_rgb_community_forum>Urubuga</main_page_institution_rgb_community_forum>
+				<main_page_institution_rgb_community_forum_all>Byose</main_page_institution_rgb_community_forum_all>
+				<main_page_institution_rgb_community_forum_latest>Ibishya</main_page_institution_rgb_community_forum_latest>
+				<main_page_institution_rgb_community_forum_where_i_am_tagged>Aho nagaragaye</main_page_institution_rgb_community_forum_where_i_am_tagged>
+				<main_page_institution_rgb_community_forum_trending>Ibigezweho</main_page_institution_rgb_community_forum_trending>
+				<main_page_institution_rgb_community_forum_ourposts>Ibyo twanditse</main_page_institution_rgb_community_forum_ourposts>
+				<main_page_institution_rgb_community_forum_search_here>Shakishiriza hano</main_page_institution_rgb_community_forum_search_here>
+				<main_page_institution_rgb_community_forum_share_your_opinion>Sangiza igitekerezo cyawe kuri iri huriro</main_page_institution_rgb_community_forum_share_your_opinion>
+				<main_page_institution_rgb_community_forum_position>Icyo Ushinzwe/ Umwanya ndimo</main_page_institution_rgb_community_forum_position>
+				<main_page_institution_rgb_community_forum_views>Bakibonye</main_page_institution_rgb_community_forum_views>
+				<main_page_institution_rgb_community_forum_likes>Bakishimiye</main_page_institution_rgb_community_forum_likes>
+				<main_page_institution_rgb_community_forum_unlikes>Bakinenze</main_page_institution_rgb_community_forum_unlikes>
+				<main_page_institution_rgb_community_forum_comment>Bakivuzeho</main_page_institution_rgb_community_forum_comment>
+				
+				
+	</main_page_institution_rgb>
+	<!-- Main Page For Any Institution  -->
+	<main_page_institution>
+		<main_page_institution_notification_title>Imbuzi/ Imenyeshwa</main_page_institution_notification_title>
+		<main_page_institution_notification_no_notification>Nta bishya bihari aka kanya</main_page_institution_notification_no_notification>
+		<main_page_institution_notification_message_title>Ubutumwa</main_page_institution_notification_message_title>
+		<main_page_institution_notification_message_no_message>Uzakira ubutumwa buvuye kukigo mwatanzeho ibitekerezo/ ikibazo cyangwa ikifuzo </main_page_institution_notification_message_no_message>				
+				<main_page_institution_notification_sent_to>CYOHEREJWE KURI</main_page_institution_notification_sent_to>
+				<main_page_institution_suggestion_box_panel>AGASANDUKU K'IBITEKEREZO</main_page_institution_suggestion_box_panel>
+				<main_page_institution_suggestion_box_panel_sort_ascending_of_dates>Ubutumwa bwahageze mbere</main_page_institution_suggestion_box_panel_sort_ascending_of_dates>
+				<main_page_institution_suggestion_box_panel_sort_descending_of_dates>Ubutumwa buheruka</main_page_institution_suggestion_box_panel_sort_descending_of_dates>
+				<main_page_institution_suggestion_box_panel_sort_byname>Hagendewe ku Izina</main_page_institution_suggestion_box_panel_sort_byname>
+				<main_page_institution_suggestion_box_panel_sort_bykeyword>Hagendewe ku ijambo ry' ingenzi</main_page_institution_suggestion_box_panel_sort_bykeyword>
+				<main_page_institution_suggestion_box_panel_sort_bygender>Hagendewe ku gitsina</main_page_institution_suggestion_box_panel_sort_bygender>
+				<main_page_institution_suggestion_box_panel_sort_bymale>Hagendewe ku gitsina Gabo</main_page_institution_suggestion_box_panel_sort_bymale>
+				<main_page_institution_suggestion_box_panel_sort_byfemale>Hagendewe ku gitsina Gore</main_page_institution_suggestion_box_panel_sort_byfemale>
+				<main_page_institution_suggestion_box_panel_sort_marital_status>Hagendewe ku Irangamimerere</main_page_institution_suggestion_box_panel_sort_marital_status>	
+				<main_page_institution_suggestion_box_panel_sort_marital_status_single>Ingaragu</main_page_institution_suggestion_box_panel_sort_marital_status_single>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_married>Narashyingiwe</main_page_institution_suggestion_box_panel_sort_marital_status_married>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_divorced>Twatandukanye n'uwo twashakanye</main_page_institution_suggestion_box_panel_sort_marital_status_divorced>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_widow>Umupfakazi/  Uwo twashakanye yarapfuye</main_page_institution_suggestion_box_panel_sort_marital_status_widow>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</main_page_institution_suggestion_box_panel_sort_marital_status_widower>
+				<main_page_institution_suggestion_box_panel_sort_marital_status_sort_btn>vangura</main_page_institution_suggestion_box_panel_sort_marital_status_sort_btn>	
+				<main_page_institution_suggestion_box_panel_sort_media_type>Ku bwoko bw' ibyoherejwe</main_page_institution_suggestion_box_panel_sort_media_type>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_all>Byose</main_page_institution_suggestion_box_panel_sort_media_type_all>
+				<main_page_institution_suggestion_box_panel_sort_media_type_text>Amagambo</main_page_institution_suggestion_box_panel_sort_media_type_text>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_audio>Amajwi</main_page_institution_suggestion_box_panel_sort_media_type_audio>	
+				<main_page_institution_suggestion_box_panel_sort_media_type_video>Amashusho/ video</main_page_institution_suggestion_box_panel_sort_media_type_video>
+				<main_page_institution_suggestion_box_panel_sort_media_type_sort_btn>vangura</main_page_institution_suggestion_box_panel_sort_media_type_sort_btn>
+				<main_page_institution_suggestion_box_panel_sort_date_range>Hagati y' amatariki </main_page_institution_suggestion_box_panel_sort_date_range>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_from>Kuva</main_page_institution_suggestion_box_panel_sort_date_range_from>
+				<main_page_institution_suggestion_box_panel_sort_date_range_to>kuri</main_page_institution_suggestion_box_panel_sort_date_range_to>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_first_date>Ubanza</main_page_institution_suggestion_box_panel_sort_date_range_first_date>
+				<main_page_institution_suggestion_box_panel_sort_date_range_last_date>Uhera</main_page_institution_suggestion_box_panel_sort_date_range_last_date>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_sort_ascending>Ubutumwa bwabanje</main_page_institution_suggestion_box_panel_sort_date_range_sort_ascending>	
+				<main_page_institution_suggestion_box_panel_sort_date_range_sort_descending>Ubutumwa Bwaherutse</main_page_institution_suggestion_box_panel_sort_date_range_sort_descending>
+				<main_page_institution_suggestion_box_panel_image>Amashusho/Amafoto</main_page_institution_suggestion_box_panel_image>	
+				<main_page_institution_suggestion_box_panel_text>Amagambo</main_page_institution_suggestion_box_panel_text>	
+				<main_page_institution_suggestion_box_panel_video>Amashusho/ video</main_page_institution_suggestion_box_panel_video>
+				<main_page_institution_suggestion_box_panel_audio>Amajwi</main_page_institution_suggestion_box_panel_audio>				
+				<main_page_institution_suggestion_box_forum>Urubuga</main_page_institution_suggestion_box_forum>	
+				<main_page_institution_suggestion_box_forum_all>Byose</main_page_institution_suggestion_box_forum_all>	
+				<main_page_institution_suggestion_box_forum_latest>Ibishya</main_page_institution_suggestion_box_forum_latest>	
+				<main_page_institution_suggestion_box_forum_whereiam_tagged>Aho nagaragaye</main_page_institution_suggestion_box_forum_whereiam_tagged>	
+				<main_page_institution_suggestion_box_forum_trending>Ibigezweho</main_page_institution_suggestion_box_forum_trending>	
+				<main_page_institution_suggestion_box_forum_ourposts>Ibyo twanditse</main_page_institution_suggestion_box_forum_ourposts>
+				<main_page_institution_suggestion_box_forum_searchhere>Shakishiriza hano</main_page_institution_suggestion_box_forum_searchhere>
+				<main_page_institution_suggestion_box_forum_share_with_community>Sangiza igitekerezo cyawe kuri iri huriro</main_page_institution_suggestion_box_forum_share_with_community>
+					<main_page_institution_suggestion_box_forum_position>Icyo Ushinzwe</main_page_institution_suggestion_box_forum_position>
+					<main_page_institution_suggestion_box_forum_views>Bakibonye</main_page_institution_suggestion_box_forum_views>
+					<main_page_institution_suggestion_box_forum_likes>Bagikunze</main_page_institution_suggestion_box_forum_likes>	
+					<main_page_institution_suggestion_box_forum_unlikes>Bakinenze</main_page_institution_suggestion_box_forum_unlikes>
+					<main_page_institution_suggestion_box_forum_comments>Bakivuzeho</main_page_institution_suggestion_box_forum_comments>	
+					<main_page_institution_suggestion_box_forum_footer>Amategeko n'amabwiriza</main_page_institution_suggestion_box_forum_footer>
+					<main_page_institution_suggestion_box_forum_your_comment>Icyo ubivugaho</main_page_institution_suggestion_box_forum_your_comment>		
+		
+	</main_page_institution>
+	<!--Main Page For Common User   -->
+	<main_page>
+		<main_page_notification_title>Imbuzi/ Imenyeshwa</main_page_notification_title>
+		<main_page_notification_no_notification>Nta bishya bihari aka kanya</main_page_notification_no_notification>
+		<main_page_notification_notification_likes>Bagishimye</main_page_notification_notification_likes>
+		<main_page_notification_notification_dislikes>Bakinenze</main_page_notification_notification_dislikes>
+		<main_page_notification_notification_comment>Bakivuzeho</main_page_notification_notification_comment>
+		<main_page_notification_message_title>Ubutumwa</main_page_notification_message_title>
+		<main_page_notification_message_no_message>Uzakira ubutumwa buvuye kukigo mwatanzeho ibitekerezo/ ikibazo cyangwa ikifuzo</main_page_notification_message_no_message>
+				<main_page_notification_message_sent_to>Cyoherejwe kuri</main_page_notification_message_sent_to>
+				<main_page_notification_message_sent_replies>Ibisubizo</main_page_notification_message_sent_replies>
+				<main_page_notification_message_sent_follow_up>Kurikirana Ibi</main_page_notification_message_sent_follow_up>
+				<main_page_notification_message_sent_finalize>Bisoze</main_page_notification_message_sent_finalize>
+				<main_page_notification_message_inform_check>Urihuza kutumenyesha uko ikibazo watugejejeho cyasojwe, hitamo kimwe mu byo twashyize munsi</main_page_notification_message_inform_check>
+				<main_page_notification_message_inform_check_resolved>Byaciyemo</main_page_notification_message_inform_check_resolved>
+				<main_page_notification_message_inform_check_resolved_1>Ikibazo ntago cyakemuwe, ariko nishimiye ibisobanuro nahawe.</main_page_notification_message_inform_check_resolved_1>
+				<main_page_notification_message_inform_check_resolved_2>Ikibazo ntago cyakemutse, ariko ntanubwo nishimiye ibisobanuro nahawe.</main_page_notification_message_inform_check_resolved_2>
+				<main_page_notification_message_inform_check_resolved_other>Ibindi</main_page_notification_message_inform_check_resolved_other>
+				<main_page_notification_message_inform_check_resolved_typehere>Andika hano</main_page_notification_message_inform_check_resolved_typehere>
+				<main_page_notification_message_inform_check_resolved_ok>Yego</main_page_notification_message_inform_check_resolved_ok>
+				<main_page_notification_message_inform_check_resolved_cancel>Guhagarika</main_page_notification_message_inform_check_resolved_cancel>
+				<main_page_notification_message_inform_check_question_viewed>Ikibazo cyasuzumwe n'abakozi ba RGB bashinzwe agasanduku k'ibitekerezo</main_page_notification_message_inform_check_question_viewed>
+				<main_page_notification_message_inform_check_question_viewed_1>Ikibazo cyoherejwe mu biro by'Umuvunyi mukuru kugirangi cyigweho</main_page_notification_message_inform_check_question_viewed_1>
+				<main_page_notification_message_inform_check_question_sent_by>cyoherejwe na</main_page_notification_message_inform_check_question_sent_by>
+				<main_page_forum_all>Byose</main_page_forum_all>
+				<main_page_forum_latest>Ibishya</main_page_forum_latest>
+				<main_page_forum_whereiamtagged>Aho nagaragaye</main_page_forum_whereiamtagged>
+				<main_page_forum_trending>Ibigezweho</main_page_forum_trending>
+				<main_page_forum_myposts>Ibyo nanditse</main_page_forum_myposts>
+				<main_page_forum_search>Shakishiriza hano</main_page_forum_search>
+				<main_page_forum_your_su_community>Sangiza igitekerezo cyawe kuri iri huriro</main_page_forum_your_su_community>
+				<main_page_forum_your_su_commun_send>Ohereza</main_page_forum_your_su_commun_send>
+				<main_page_forum_your_su_commun_position>Icyo Ushinzwe</main_page_forum_your_su_commun_position>
+				<main_page_forum_views>Bakibonye</main_page_forum_views>
+				<main_page_forum_likes>Bagikunze</main_page_forum_likes>
+				<main_page_forum_unlikes>Bakinenze</main_page_forum_unlikes>
+				<main_page_forum_comments>Bakivuzeho</main_page_forum_comments>
+				<main_page_forum_comments_your_comment>Icyo ubivugaho</main_page_forum_comments_your_comment>
+				<main_page_forum_suggestion_panel>Ubu ni uburyo mwashyiriweho ngo mubaze ibibazo bijyanye na:</main_page_forum_suggestion_panel>
+				<main_page_forum_suggestion_panel_thank_you>Murakoze gukoresha runo rubuga, igitekerezo cyanyu ni inyamibwa kuri twe</main_page_forum_suggestion_panel_thank_you>
+				<main_page_forum_suggestion_panel_your_question_here>Ikibazo cyawe hano</main_page_forum_suggestion_panel_your_question_here>
+				<main_page_forum_suggestion_panel_your_question_here_send>Ohereza</main_page_forum_suggestion_panel_your_question_here_send>
+				<main_page_forum_suggestion_panel_your_question_here_cancel>Hagarika</main_page_forum_suggestion_panel_your_question_here_cancel>
+				<main_page_forum_suggestion_panel_title__>Agasanduku k'ibitekerezo</main_page_forum_suggestion_panel_title__>
+				<main_page_forum_suggestion_panel_send_brief_explain>Tanga icyifuzo/ igitekerezo kukigo ushaka ukoresheje ibi bikurikira:</main_page_forum_suggestion_panel_send_brief_explain>
+				<main_page_forum_suggestion_panel_send_brief_send_a_text>Tanga icyifuzo/igitekerezo mumagambo</main_page_forum_suggestion_panel_send_brief_send_a_text>
+				<main_page_forum_suggestion_panel_send_brief_send_a_picture>Tanga icyifuzo/igitekerezo mwifoto</main_page_forum_suggestion_panel_send_brief_send_a_picture>
+				<main_page_forum_suggestion_panel_send_brief_send_an_audio>Tanga icyifuzo/igitekerezo mu majwi</main_page_forum_suggestion_panel_send_brief_send_an_audio>
+				<main_page_forum_suggestion_panel_send_brief_send_a_video>Tanga icyifuzo/igitekerezo mumashusho/video</main_page_forum_suggestion_panel_send_brief_send_a_video>
+				<main_page_forum_suggestion_panel_send_brief_thanks>Murakoze gukoresha runo rubuga, igitekerezo cyanyu ni inyamibwa kuri twe</main_page_forum_suggestion_panel_send_brief_thanks>
+				<main_page_forum_suggestion_panel_send_search_company>Shakisha ikigo cg wandikemo ikindi kigo</main_page_forum_suggestion_panel_send_search_company>
+				<main_page_forum_suggestion_panel_send_View_all>Reba Byose</main_page_forum_suggestion_panel_send_View_all>
+				<main_page_forum_suggestion_panel_send_your_question>Ikibazo cyawe</main_page_forum_suggestion_panel_send_your_question>
+				<main_page_forum_suggestion_panel_send_txt>Ohereza</main_page_forum_suggestion_panel_send_txt>
+				<main_page_forum_suggestion_panel_cancel_txt>Hagarika</main_page_forum_suggestion_panel_cancel_txt>
+				<main_page_forum_suggestion_panel_choose_image_from_device>Hitamo ifoto kuri mudasobwa</main_page_forum_suggestion_panel_choose_image_from_device>
+				<main_page_forum_suggestion_panel_your_caption>Ijambo riherekeza</main_page_forum_suggestion_panel_your_caption>
+				<main_page_forum_suggestion_panel_choose_audio_from_device>Hitamo ijwi kuri mudasobwa</main_page_forum_suggestion_panel_choose_audio_from_device>
+				<main_page_forum_suggestion_panel_choose_video_from_device>Hitamo amashusho kuri mudasobwa</main_page_forum_suggestion_panel_choose_video_from_device>
+		
+	</main_page>
+	<!--Profile Page For Institution   -->
+	<profile_page_institution>
+		<profile_page_institution_your_account>Konti yawe</profile_page_institution_your_account>
+		<profile_page_institution_institution>Ikigo</profile_page_institution_institution>
+		<profile_page_institution_website>Urubuga rwa murandasi</profile_page_institution_website>
+		<profile_page_institution_info_email>email y' ikigo/ Konti y' ubutumwa bwa murandasi kukigo</profile_page_institution_info_email>
+		<profile_page_institution_institution_1>Ikigo</profile_page_institution_institution_1>
+		<profile_page_institution_website_1>Urubuga rwa murandasi</profile_page_institution_website_1>
+		<profile_page_institution_mail_add_1>Email/ Ubutumwa byo kuri murandasi</profile_page_institution_mail_add_1>
+		<profile_page_institution_province>Intara</profile_page_institution_province>
+		<profile_page_institution_district>Akarere</profile_page_institution_district>
+		<profile_page_institution_sector>Umurenge</profile_page_institution_sector>
+		<profile_page_institution_motto>Ikivugo</profile_page_institution_motto>
+		<profile_page_institution_username>Izina nkoresha</profile_page_institution_username>
+		<profile_page_institution_change_password>Hindura ijambo ry'ibanga</profile_page_institution_change_password>
+		<profile_page_institution_save_changes>Bika impiduka </profile_page_institution_save_changes>
+		<profile_page_institution_continue>Komeza</profile_page_institution_continue>			
+		
+	</profile_page_institution>
+	<!--Profile Page For Official   -->
+	<profile_page_officials>
+		<profile_page_officials_your_account>Konti yawe</profile_page_officials_your_account>
+		<profile_page_officials_firstname>Izina ry' umuryango / Izina</profile_page_officials_firstname>
+		<profile_page_officials_lastname>Andi mazina</profile_page_officials_lastname>
+		<profile_page_officials_first_name_here>Izina ry' umuryango / Izina hano</profile_page_officials_first_name_here>
+		<profile_page_officials_last_name_here>Izina ry' umuryango / Izina hano</profile_page_officials_last_name_here>
+		<profile_page_officials_gender_title>Igitsina</profile_page_officials_gender_title>
+		<profile_page_officials_gender_male>Igitsina Gabo</profile_page_officials_gender_male>
+		<profile_page_officials_gender_female>Igitsina Gore</profile_page_officials_gender_female>
+		<profile_page_officials_marital_status>Irangamimerere</profile_page_officials_marital_status>
+		<profile_page_officials_marital_status_single>Ingaragu</profile_page_officials_marital_status_single>
+		<profile_page_officials_marital_status_married>Narashyingiwe</profile_page_officials_marital_status_married>
+		<profile_page_officials_marital_status_divorced>Twatandukanye nuwo twashakanye</profile_page_officials_marital_status_divorced>
+		<profile_page_officials_marital_status_widow>Umupfakazi/ Uwo twashakanye yarapfuye</profile_page_officials_marital_status_widow>
+		<profile_page_officials_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</profile_page_officials_marital_status_widower>
+		<profile_page_officials_institution>Ikigo</profile_page_officials_institution>
+		<profile_page_officials_department>Ishami ry' akazi</profile_page_officials_department>
+		<profile_page_officials_position>Icyo Ushinzwe</profile_page_officials_position>
+		<profile_page_officials_province>Intara</profile_page_officials_province>
+		<profile_page_officials_district>Akarere</profile_page_officials_district>
+		<profile_page_officials_sector>Umurenge</profile_page_officials_sector>
+		<profile_page_officials_work_phone>Telefoni y'akazi</profile_page_officials_work_phone>
+		<profile_page_officials_company_address_mail>email y' ikigo</profile_page_officials_company_address_mail>
+		<profile_page_officials_change_password>Hindura ijambo ry'ibanga</profile_page_officials_change_password>
+		<profile_page_officials_save_changes>Bika impiduka </profile_page_officials_save_changes>
+		<profile_page_officials_save_changes_continue>Komeza</profile_page_officials_save_changes_continue>		
+		
+	</profile_page_officials>
+	<!--Profile Page  for Common User  -->
+	<profile_page>
+		<profile_page_your_account>Konti yawe</profile_page_your_account>
+		<profile_page_first_name>Izina ry' umuryango / Izina</profile_page_first_name>
+		<profile_page_last_name>Andi mazina</profile_page_last_name>
+		<profile_page_first_name_here>Izina ry' umuryango hano</profile_page_first_name_here>
+		<profile_page_last_name_here>Andi mazina hano</profile_page_last_name_here>
+		<profile_page_gender>Igitsina</profile_page_gender>
+		<profile_page_male>Igitsina Gabo</profile_page_male>
+		<profile_page_female>Igitsina Gore</profile_page_female>
+		<profile_page_email_add>Email/ Ubutumwa byo kuri murandasi</profile_page_email_add>
+		<profile_page_username>Izina nkoresha</profile_page_username>
+		<profile_page_email_add_here>Email/ Ubutumwa byo kuri murandasi here</profile_page_email_add_here>
+		<profile_page_username_add_here>Izina nkoresha hano</profile_page_username_add_here>
+		<profile_page_change_password>hindura ijambo ry'ibanga</profile_page_change_password>
+		<profile_page_birthdate>Itariki y'amavuko</profile_page_birthdate>
+		<profile_page_marital_status>Irangamimerere</profile_page_marital_status>
+		<profile_page_marital_status_single>Ingaragu</profile_page_marital_status_single>
+			<profile_page_marital_status_married>Narashyingiwe</profile_page_marital_status_married>
+			<profile_page_marital_status_divorced>Twatandukanye nuwo twashakanye</profile_page_marital_status_divorced>
+			<profile_page_marital_status_widow>Umupfakazi/ Uwo twashakanye yarapfuye</profile_page_marital_status_widow>
+			<profile_page_marital_status_widower>Umupfakare/ Uwo twashakanye yarapfuye</profile_page_marital_status_widower>
+			<profile_page_profession>Umwuga</profile_page_profession>
+			<profile_page_tel_no>Nimero ya telefoni</profile_page_tel_no>			
+			<profile_page_address>Aho ubarizwa</profile_page_address>
+			<profile_page_save_changes>Bika impiduka </profile_page_save_changes>
+			<profile_page_continue>Komeza</profile_page_continue>
+		
+	</profile_page>
+</generalsettings>
+</nds>
+
